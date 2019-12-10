@@ -1,0 +1,12 @@
+Week Title                             Topics                           Exercise                       
+    1Data Science in Healthcare        applications, terminology, HIPPA anonymize dataset PII          
+    2Spreadsheet Data Science          ETL, exploration & visualization height, weight, BMI,  gender   
+    3Statistics                        causality, correlation, MLE      causal diagram “games”         
+    4Clinical Data Science             PII, prescriptive vs descriptive predict diabetes risk          
+    5Hospital Performance Modeling     time series, unintended conseq.  Mid-term Quiz!                 
+    6Population Health (Epidemiology)  GIS, spatio-temporal modeling    visualize/analyze Ebola        
+    7Scoping Review & Gap Analyses     diabetes, military women         review smoking research        
+    8Natural Language Processing       IA, summarization, text mining   find summary with spaCy        
+    9Occ. Health & Assistive Tech.     Tesla & Aira case studies, OSHA  analyze medicine OCR app.      
+   10Policy, Privacy and Ethics        bias, fairness, anonymization    Final Exam!                    
+   11Capstone: Train a healthcare modelfind/download data, ETL,         fit/train a DS model           
