@@ -1,8 +1,8 @@
 # Glossary
 
-SaMD (Software as a Medical Device):  The FDA has proposed to regulate AI and ML technology as a medical device
+SaMD (Software as a Medical Device):  The FDA has proposed to regulate AI and ML technology used in medicine as a medical device.
 HIPPA (The Health Insurance Portability and Accountability Act): In 2003 US Congress passed HIPPA which regulates insurance companies
-PII (Personally Identifiable Information): Information like birtdates, names, and social security numbers which can be used alone or in combination with other pieces of information to identify an individual.
+PII (Personally Identifiable Information): Information like birtdates, names, and social security numbers which can be used alone or in combination with other pieces of information to identify an individual. An age over 80 in hospital records is considered PII all by itself.
 Standards for Privacy of Individually Identifiable Health Information
 HHS (Health and Human Services): Publishes guidelines and standards regulating the electronic exchange of health information.
 Scoping Review: Paper study, literature review, metadata analysis
