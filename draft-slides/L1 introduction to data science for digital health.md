@@ -129,6 +129,50 @@ I don't even think your insurance company or a doctor would even entertain that 
 You will read that same data into the python programs your will construct in this course to visualize and glean insight for free.
 :::
 
+# Nurse Bots
+
+- [25 medical search engines in 2009](https://onlinenursepractitionerprograms.com/2009/top-25-health-medical-search-engines/)
+- [80% of Americans search for health information online in 2013](http://www.nbcnews.com/id/3077086/t/more-people-search-health-online)
+
+# Common Search Queries in 2015
+
+- Is bronchitis|pneumonia contagious?
+- How much water|calories should I consume?
+- What is Lupus?
+- When do I ovulate?
+- How far along is my preganancy
+
+Reference: [health.com](https://www.health.com/cold-flu-sinus/top-health-searches-google-2015)
+
+::: note
+People ask search engines serious medical questions that could have a significant affect on their lives.
+Knowing about lupus may not be important to your personal health.
+But knowing how to monitor a pregnancy or tell when you might get pregnant can be life changing information.
+Often people are more comfortable asking questions of DuckDuckGo than they are of their physician.
+And they'll often get more accurate, up-to-date, and detailed information than their doctor can provide.
+Search engines can provide links to real world examples and symptoms that doctors may not be comfortable discussing, for fear of alarming or misleading their patients.
+Patients can spend more time reading articles online than they can afford to spend with their doctor.
+:::
+# Virtual Assistants
+
+- WebMD
+- Wikipedia
+- Duck
+- Siri
+- Google
+- Alexa
+
+![](media/L1/WikiQA-92pct-ANSQ+WikiQA.png)
+::: note
+People use virtual assistants and search engines as their nurse or healthcare advisor.
+Search engines have begun to incorporate direct question answering.
+DuckDuckGo can answer questions like "what is bonchitis" directly.
+Search engines use Wikipedia as a knowledge base and will quote the relevant sentence or section that answers your questions.
+WebMD and DuckDuckGo is about to get a lot smarter.
+In December 2019, NLP researchers showed how to find the best possible Wikipedia sentence to answer any question [92% of the time].
+The previous record was 76%.
+:::
+
 # Everyday uses
 
 - Learning how to interpret the statistics you hear in the news
