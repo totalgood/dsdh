@@ -3,7 +3,7 @@ title: L1 Introduction to Data Science for Digital Health
 created: 2019-12-11
 ---
 
-# big picture to microscopic
+# 3: big picture to microscopic
 
 - Pop Health
 - Hospital
@@ -49,9 +49,9 @@ And you will practice the skills of the module on these examples to help you dev
 ::: note
 So this course will start with the foundational skills you need.
 For example you will build on your existing understanding of math and spreadsheets to extend that to doing data science entirely in a spreadsheet.
-You'll quikcly see the limitation of the spreadsheet as a data science tool and this will motivate your eagerness to move on to more programatic approaches to data science.
+You'll quickly see the limitation of the spreadsheet as a data science tool and this will motivate your eagerness to move on to more programmatic approaches to data science.
 You'll learn how to write small python programs that automatically accomplish everything you learned in the spreadsheet exercises, and more.
-You'll progress from descriptice statistics, to data cleaning and transformation, and finally into data modeling.
+You'll progress from descriptive statistics, to data cleaning and transformation, and finally into data modeling.
 :::
 
 # Loading data
@@ -96,6 +96,29 @@ Machines can extract data and information from lengthy clinical medical records 
 And those sequences will incrementally become less and less comprehensible by humans as you learn how to use machines to process longer and more complicated sequences of data like DNA and the human genome.
 Finally you'll eventually put on your radiology hat as you examine X-ray and MRI imagery and even cell phone camera images of patients.
 You'll learn how to train a machine to see things that a human doctor might miss.
+:::
+
+# Philosophy
+
+["Learning Health System"](https://www.ncbi.nlm.nih.gov/books/NBK53494/) 2006 Instutute of Medicine report
+["Toward Complete & Sustainable Learning Systems"](https://medicine.umich.edu/sites/default/files/2014_12_08-Friedman-IOM%20LHS.pdf) 2015 Charles P. Friedman, U. Mich.
+
+::: Notes
+
+Afferent neuron signals carry information from your six senses to your brain.
+In the healthcare system this is the data flowing from doctors and patients into electronic healthcare records and all the disparate databases that "learn" medicine and healthcare.
+You can imagine all the places that data exists: hospital operations databases, insurer claims and decisions, pharmaceutical company databases, individual university professor databases, the CDC in Atlanta, healthcare systems in Africa and East Asia, academic journal archives and data sets. And with the growth in social networks, nearly every human being on the planet stores much of their health information in places like Facebook, [Xiaoice (Microsoft Tai re-branded for China)](https://en.wikipedia.org/wiki/Xiaoice), Reddit, and even publicly shares that data on Twitter and in blog posts. Very little of that data flows into the brain of the doctor performing surgery of the  operating on you or pres all the data flowing into hospital operations databases as well as insurer and provider knowledge bases.
+Efferent neuron signals tell your muscles (effectors) to move. In the healthcare system these are the regulations, policies, and instruction given to providers.
+You can think of the provider (doctor or nurse) as the central nervous system of healthcare system.
+The provider is where the rubber hits the road or the scalpel hits the skin.
+The doctor or nurse decides what information is relevant and helps the patient make the decision about actions to take to manage their health.
+If you think about it, the central nervous system really includes the minds of both the patient and the doctor.
+They make all the important decisions and take all the important actions together.
+With the democratization of data and tools, more and more of those decisions are made and implemented by the patient directly.
+It's this shift towards patient independence from the healthcare system that has doctors worried about AI replacing doctors.
+It won't replace all doctors, but it has already replaced many doctors.
+The iron triangle has already been shattered in places where there are not affordable options that involve certified medical doctors or hospitals or even nurses, in some cases.
+This can have dire consequences for public health, such as the anti-vaxer campaigns on Facebook. Somoa recently passed legislation to limit the spread of measles that resulted when a small minority stopped vaccinating their children. And lawsuits have beenfiled against Facebook and other organizations complicit in this spread of misinformation.
 :::
 
 # Exciting applications
