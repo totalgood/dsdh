@@ -5,20 +5,23 @@ path: ~/code/teaching/ucsd/dsdh/resources/glossary.md
 # Data Science for Digital Health Glossary
 
 To make room for new concepts we compress complex concepts into words.
-And then we can compress several words into acronyms to consolidate multiple complex concepts under one "umbrella" concept. Smart people can think analogously across domains. **IDEA**: Can you imagine a neural network structure that would allow analogies and generalizations to encode themselves in the edges/weights of an Artificial Neural Network or the signals within a "meatspace" neural network (collection of neurons in a brain)?
+And then we can compress several words into acronyms to consolidate multiple complex concepts under one "umbrella" concept.
+Smart people can think analogously across domains, sharing words and concepts and brain neurons between domains.
 
 ```yaml
 ACP (American College of Physicians): Publish guidelines such as bi-annual mammograms after the age of 60. #healthcare #healthcare #L1
 AKI (Acute Kidney Injury): DeepMind can predict kidney injury (damage to the kidney from mediations or diabetes or kidney disease) 2 days in advance with 56% accuracy according to [this article](https://www.technologyreview.com/f/614046/deepminds-algorithm-can-predict-serious-kidney-injury-48-hours-before-it-happens/). #healthcare #L1
 Allele: A variant form of a given gene, a version of a known mutation at the same place as the original unmodified gene within a chromosome. #genomics #healthcare
 CBE (Clinical Breast Exam): The American College of Physicians no longer recommend breast exams, as of 2019. Mammograms continue to be recommended, but less frequently and later in life than earlier recommendations. #healthcare #L1
-Chromosome: DNA molecule with part or all of the genetic material (genome) of an organism often including packaging proteins which help maintain the 3D structure of the lengthy sequence of nucleic acids and chaperone proteins which aid in accurate transcription of the DNA into RNA and proteins. #genomics #healthcare
+Chromosome: DNA molecule with part or all of the genetic material (genome) of an organism often including packaging proteins which help maintain the 3D structure of the lengthy sequence of nucleic acids and chaperone proteins which aid in accurate transcription of the DNA into RNA and proteins. The cells of the human body each contain 46 chromosomes, or 23 pairs of duplicate chromosomes. #genomics #healthcare
 CV (Computer Vision): "Processing images for classification, segmentation, or object detection or processing video for object tracking and SLAM. This term is often used to referred to "classical" computer vision algorithms based on human-crafted algorithms like HOG and SIFT, rather than machine learning or deep learning models like VGG16, ImageNet, or SSD neural networks." #data-science #deep-learning #computer-vision #L1
 Degeneracy (of genetic code): some SNPs and SNVs do not significantly change the amino acid sequence (protein) produced by that gene. #healthcare #genomics
 DNA (Deoxyribonucleic Acids): Genetic code (sequence) usually composed of the four nucleotides Guanine (G), Cytosine (C), Adenine (A), and Thymine (T). #genomics #healthcare #L2
-Explainability: Deep learning models are difficult to interpret or explain because they have millions of traininable parameters across many layers. Tensorflow-Explain is a package that implements simplified visualizations. See [this blog post, bit.ly/ucsdexplain](https://blog.sicara.com/tf-explain-interpretability-tensorflow-2-9438b5846e35) for more info. #data-science #deep-learning #computer-vision #data-science #NLP #L1 #deep-learning #data-science #L5 #L9
+ETL (Extraction, Transform, Load): The process of retrieving data from a website or database and then transforming it into a numerical matrix that can be loaded into a table to be used in plots or a data science model.
+Explainability: Deep learning models are difficult to interpret or explain because they have millions of trainable parameters across many layers. Tensorflow-Explain is a package that implements simplified visualizations. See [this blog post, bit.ly/ucsdexplain](https://blog.sicara.com/tf-explain-interpretability-tensorflow-2-9438b5846e35) for more info. #data-science #deep-learning #computer-vision #data-science #NLP #L1 #deep-learning #data-science #L5 #L9
 Gap Analsyis: Examining scoping review results to look for oportunities for additional research.  #data-science #healthcare  #healthcare #data-science #L8
 Genotype: All the genes or genetic variations from a refence gene sequence that determine the phenotype (bilological structure and function) of an individual organism. #genomics #healthcare
+Germline: Sperm, egg, or embryo gene editing that can potentially engineer hereditable traits, including disease resistance and performance enhancements. Germ
 GIS (Geographic Information System): Mapping software and and geographic location data analysis and visualization tools. #data-science #GIS #L7 #L3
 GMM (Gaussian Mixture Model): Statistical model that the target is a linear combination of gaussian-distributed variables (see GMM). #data-science #deep-learning #computer-vision #NLP #L2 #L9
 Grad-CAM (Gradient-weighted Class Activation Mapping): "A measure of pixel importance based on the gradient of the activation for the class label of the image/region. See [this page](http://gradcam.cloudcv.org/) for more info. #data-science #deep-learning #computer-vision" #deep-learning #data-science #L5 #L9
@@ -46,4 +49,7 @@ Genome regions
     - coding gene region SNPs
     - noncoding gene SNPs
     - intergenic region of DNA (between genes)
+
+**IDEA**: A neural network structure that would allow analogies and generalizations to encode themselves in the edges/weights of an Artificial Neural Network or the signals within a "meatspace" neural network (collection of neurons in a brain)?
+
 
