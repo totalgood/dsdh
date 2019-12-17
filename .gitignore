@@ -1,4 +1,11 @@
 # Temporary and binary files
+archive/
+*.old
+*.old.*
+*.bak.*
+*.bak
+*.tmp
+*.tmp.*
 *~
 *.py[cod]
 *.so
