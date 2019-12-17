@@ -1,14 +1,14 @@
----
-title: Data Science for Digital Health Glossary
-path: ~/code/teaching/ucsd/dsdh/resources/glossary.md
----
-# Data Science for Digital Health Glossary
+# ---
+# title: Data Science for Digital Health -- Glossary
+# path: ~/code/teaching/ucsd/dsdh/resources/glossary.yml
+# ---
 
-To make room for new concepts we compress complex concepts into words.
-And then we can compress several words into acronyms to consolidate multiple complex concepts under one "umbrella" concept.
-Smart people can think analogously across domains, sharing words and concepts and brain neurons between domains.
+# # Data Science for Digital Health Glossary
 
-```yaml
+# To make room for new concepts we compress complex concepts into words.
+# And then we can compress several words into acronyms to consolidate multiple complex concepts under one "umbrella" concept.
+# Smart people can think analogously across domains, sharing words and concepts and brain neurons between domains.
+
 ACP (American College of Physicians): Publish guidelines such as bi-annual mammograms after the age of 60. #healthcare #healthcare #L1
 AKI (Acute Kidney Injury): DeepMind can predict kidney injury (damage to the kidney from mediations or diabetes or kidney disease) 2 days in advance with 56% accuracy according to [this article](https://www.technologyreview.com/f/614046/deepminds-algorithm-can-predict-serious-kidney-injury-48-hours-before-it-happens/). #healthcare #L1
 Allele: A variant form of a given gene, a version of a known mutation at the same place as the original unmodified gene within a chromosome. #genomics #healthcare
@@ -18,6 +18,7 @@ CV (Computer Vision): "Processing images for classification, segmentation, or ob
 Degeneracy (of genetic code): some SNPs and SNVs do not significantly change the amino acid sequence (protein) produced by that gene. #healthcare #genomics
 DNA (Deoxyribonucleic Acids): Genetic code (sequence) usually composed of the four nucleotides Guanine (G), Cytosine (C), Adenine (A), and Thymine (T). #genomics #healthcare #L2
 ETL (Extraction, Transform, Load): The process of retrieving data from a website or database and then transforming it into a numerical matrix that can be loaded into a table to be used in plots or a data science model.
+EHR (Electronic Health Records): In the US managed healthcare plans such as those administered by Kaiser have led the way in consolidating patient records into a normalized electronic database that can be accessed patients, doctors, and insurers and shared across hospital systems in multiple states. EHRs are the fuel for the Data Science machine that promises to decouple quality and cost of healthcare.
 Explainability: Deep learning models are difficult to interpret or explain because they have millions of trainable parameters across many layers. Tensorflow-Explain is a package that implements simplified visualizations. See [this blog post, bit.ly/ucsdexplain](https://blog.sicara.com/tf-explain-interpretability-tensorflow-2-9438b5846e35) for more info. #data-science #deep-learning #computer-vision #data-science #NLP #L1 #deep-learning #data-science #L5 #L9
 Gap Analsyis: Examining scoping review results to look for oportunities for additional research.  #data-science #healthcare  #healthcare #data-science #L8
 Genotype: All the genes or genetic variations from a refence gene sequence that determine the phenotype (bilological structure and function) of an individual organism. #genomics #healthcare
@@ -32,6 +33,7 @@ MLE (Maximum Liklihood Estimator): Statistical model that assumes the target is 
 Nonsynonymous SNPs: Missense or nonsense SNPs that cause malfunctioning or misfunctioning of the amino acids and proteins produced with this gene. #genomics #healthcare
 Nonsense SNPs: Modifications to a gene that causes it to produce nonfunctional amino acids and proteins. #genomics #healthcare
 Nucleotide: The basic building blocks of DNA and RNA, molecules consisting of both a nucleoside and a phosphate group. The most common nucleodtides in DNA are Guanine (G), Cytosine (C), Adenine (A), and Thymine (T). #genomics #healthcare
+ONC (Office of the National Coordinator for Health IT): Federal office that certifies EHR systems that comply with international standards on the ontology (medical terminolgy and data schemas). #healthcare #L6
 PII (Personally Identifiable Information): Information like birtdates, names, and social security numbers which can be used alone or in combination with other pieces of information to identify an individual. An age over 80 in hospital records is considered PII all by itself. #healthcare #L1 #L2
 SaMD (Software as a Medical Device):  The FDA has proposed to regulate AI and ML technology used in medicine as a medical device. #data-science #healthcare
 Scoping Review: Paper study, literature review, metadata analysis. #data-science #healthcare
@@ -49,7 +51,4 @@ Genome regions
     - coding gene region SNPs
     - noncoding gene SNPs
     - intergenic region of DNA (between genes)
-
-**IDEA**: A neural network structure that would allow analogies and generalizations to encode themselves in the edges/weights of an Artificial Neural Network or the signals within a "meatspace" neural network (collection of neurons in a brain)?
-
 
