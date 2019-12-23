@@ -48,6 +48,22 @@ After a statistically significant sample set is obtained for a particular diseas
 
 :::
 
+# FDA-Approved Gene Therapies
+
+- Congenital Retinal Blindness
+- Spinal Muscular Atrophy
+
+::: Notes
+
+Not only can the genomics detect the cause of disease, it can sometimes be used to cure the disease.
+In 2018 the FDA approved Luxturna an AAV virus to deliver a gene that is missing in patients suffering from an inherited eye disease.
+This treatment is restoring "functional vision" to the blind.
+In 2019 the FDA approved AAV gene therapy, a 2.1 M, single-dose treatment for Spinal Muscular Atrophy (SMA).
+Within 5 years there will be 20 therapies approved every year.
+And the pace is accelerating.
+The more precise editing possibilities of CRISPR are expected to come online in 2030.
+:::
+
 # GFF Format
 
 ## GFF: [General feature format](https://en.wikipedia.org/wiki/General_feature_format)
