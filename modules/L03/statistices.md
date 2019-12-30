@@ -62,5 +62,52 @@ resperatory disease, bone disease yes,    bone disease no,   % bone disease,
 
 # Bayesean vs Frequentist Inference, P-value, and confidence intervals
 
-[https://github.com/gmj110680/Springboard](https://github.com/gmj110680/Springboard)
+[github.com/gmj110680/Springboard](https://github.com/gmj110680/Springboard)
 
+# "Do no harm"
+
+- 500 BC: "First, do no harm."
+- 1919: "I will not...suffer...Bad Workmanship"
+- 1999: "don't be evil"
+- 2019: "Hippocratic License (Do No Harm)"
+
+::: Notes
+
+
+In modern medicine, many physicians around the world contiue to take the Hippocratic Oath when confered their MD or DO degree. In this oath, doctors vow to "First, do no harm."
+
+In the 1920's H. E. T. Haultain, a mining engineering professor at the University of Toronto in Canada proposed that engineers take an ethical oath similar to the Hippocratic Oath of doctors. Legend has it that the oath and ring were inspired by the collapse of the Quebec Bridge due to engineering errors. The text of the oath was written by the English Poet Rudyard Kipling who dubbed it "The Calling".
+
+In 1999 the founders of Google began to appreciate the power and responsibility of information providers and search engines. Amit Patel,  went around the offices of then fledgling Google Corp writing on whiteboards the company's new core value "don't be evil."
+
+In 2019 the Coraline Ada Ehmke's "Hippocratic License" has become the rallying point for software developers concerned about the use of their software to commit human rights violoations.
+
+:::
+
+# Primum non nocere
+
+"Given an existing problem, it may be better not to do something, or even to do nothing, than to risk causing more harm than good."
+
+:::
+
+This "do no harm" ethic is much deeper and more challenging than can be captured in a simple slogan or talking point."
+Data Scientists think deeply about cause and effect.
+It's natural for this mindfulness of the consequences of machine algorithm decisions to extend to the ethical rammifications of those actions and decisions.
+Those of you in the medical field will appreciate the subtlety of the latin phrase "primum non nocere".
+It means more than just "do no harm."
+Many people elaborate on this interpretation with the idea that:
+"given an existing problem, it may be better not to do something, or even to do nothing, than to risk causing more harm than good."
+
+, that  that in healthcare, when the effects can be life changing, problemsour ethical obligations.
+It can help to think about the original meaning of the more original, more nuanced, Hippocratic Oath.
+It applies to many situations in daily life as well as Data Science in any field or in medicine:
+
+econcretely in the
+
+:::
+
+## References:
+
+[wiki/Iron_Ring](https://en.wikipedia.org/wiki/Iron_Ring)UC
+[wiki/Osteopathic_medicine](https://en.wikipedia.org/wiki/Osteopathic_medicine_in_the_United_States)
+[wiki/Primum_non_nocere](https://en.wikipedia.org/wiki/Primum_non_nocere)
