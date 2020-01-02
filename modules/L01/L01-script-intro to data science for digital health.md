@@ -65,6 +65,7 @@ Our agenda will include the course syllabus and what to expect in the rest of th
 - Population Health (Pop Health)
 
 
+
 # 2: Agenda
 
 ::: notes
@@ -99,7 +100,26 @@ And you'll be quizzed on your ability to ask the right questions about data.
 
 :::
 
-# 3: Big to small
+# 3a: Data Science -> Biology
+
+# Bioinformatics Spectrumm
+
+- Informatics (Data Science, Statistics, Computer Science)
+- Bioinformatics
+- Computational Biology
+- Biology
+- Systems Biology
+- Synthetic Biology
+- Neuroscience
+- AI
+
+::: notes
+
+When we apply the tools of Computer Science and Informatics to Healthcare we see that it is useful across a spectrum of biology specialties and medicine.
+
+:::
+
+# 3b: Big to small
 
 - Pop Health
 - Hospital
@@ -133,8 +153,8 @@ As in this diagram, you will progress from data science on humanity to data scie
 # 4: Self-Pedagogy
 
 - History and philosophy first
-- Quintessential examples, e.g. [spurious correlation](http://tylervigen.com/view_correlation?id=7)
-- Critical thinking -- ask questions
+- Exemplary examples: [spurious correlation](http://tylervigen.com/view_correlation?id=7)
+- Ask questions: Critical thinking
 - Approaches, tools
 - Specific Examples
 
@@ -177,24 +197,25 @@ note-to-self: add slides to quiz students on their critical thinking skills usin
 
 # 5: Syllabus
 
-Session 1: Lecture 1:  Data Science in Healthcare
-Session 2: Lecture 2:  Spreadsheet Data Science
-Session 3: Lecture 3:  Statistics, Privacy, Ethics
-Session 4: Lecture 4:  Clinical Data Science & Machine Learning
-Session 5: Lecture 5:  Deep Learning  & AI
-Session 6: Lecture 6:  Hospital Performance Modeling
-Session 7: Lecture 7:  Population Health (Epidemiology)
-Session 8: Lecture 8:  Public Policy, Privacy & Ethics
-Session 9: Lecture 9:  Natural Language Processing
-Session 10: Lecture 10:  Bioinformatics and Genomics
+Session  1:  Lecture 1:  Data Science in Healthcare
+Session  2:  Lecture 2:  Spreadsheet Data Science
+Session  3:  Lecture 3:  Statistics and Privacy
+Session  4:  Lecture 4:  Clinical Data Science & Machine Learning
+Session  5:  Lecture 5:  Deep Learning & Computer Vision
+Session  6:  Lecture 6:  Natural Language Processing
+Session  7:  Lecture 7:  Bioinformatics & Genomics
+Session  8:  Lecture 8:  Assistive Technology, Ethics
+Session  9:  Lecture 9:  Healthcare Systems Modeling
+Session 10: Lecture 10:  Public Health & Epidemiology
 
 ::: notes
 
+In the first lesson of this course, titled "Data Science in Healthcare", you will explore all the applications of data science to healthcare.
 After this introductory lesson you will have nine more lessons in this ten week course.
-In the next lesson you will use a spreadsheet application to create data science visualizations.
-In the third lesson you will learn how to use Python, a user-friendly programming language, to speed things up and compute statistics on larger datasets.
-Lesson four will cover clinical data science where we'll use machine learning packages in Python to perform clinical diagnoses.
-Next you will see how to use deep learning and AI to deal with extremely high dimensional data, like radiology images.
+In Lesson 2, "Spreadsheet Data Science" you will use a spreadsheet application to compute descriptive statistics and create data science visualizations. This is called EDA, or exploratory data analysis.
+In Lesosn 3, you will learn how to use Python, a user-friendly programming language, to speed things up and compute statistics on larger datasets. Don't worry if you've never programmed before. Python is the only popular computer language designed from the ground up with readability and ease of use as its primary purpose. It's almost as easy to read as natural languages, like English.
+Lesson 4 will cover clinical data science where we'll use machine learning packages in Python to perform clinical diagnoses.
+In Lesson 5 you will see how to use deep learning and AI to deal with extremely high dimensional data, like radiology images.
 In Lesson six you will analyze and model the performance of hospital systems.
 In lesson eight you will tackle big picture public policy, privacy and ethics challenges.
 In lessons nine and ten you will learn how to process sequences of english words and then sequences of genes and nucleotides in DNA.

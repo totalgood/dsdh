@@ -1,17 +1,62 @@
 ---
 title: Genomics
 author: Hobson Lane
-date: July 22, 2019
-sansfont: Fira Sans
-slide-numbers: true
+date: Jan 6, 2020
+# sansfont: Fira Sans
+# slide-numbers: true
 
-
-mainfont: Hoefler Text
-biblatex: true
-biblatex-chicago: true
-biblatexoptions: [notes, noibid]
-bibliography: ../sources/genomics-dhds-sources.bib
+# mainfont: Hoefler Text
+# biblatex: true
+# biblatex-chicago: true
+# biblatexoptions: [notes, noibid]
+# bibliography: ../sources/genomics-dhds-sources.bib
 ---
+
+# Bioinformatics Spectrumm
+
+- Informatics (Data Science, Statistics, Computer Science)
+- Bioinformatics
+- Computational Biology
+- Biology
+- Systems Biology
+- Synthetic Biology
+- Neuroscience
+- AI
+
+# Bioinformatics
+
+- Carl Woese
+- Margaret Dayhoff
+
+::: notes
+
+
+In the 1970's Margaret Dayhoff pioneered the study of protein sequences, how they evolve, and scoring proteins for similarity by measuring their edit distance. She was the first to use PAM substitution matrices to compare protein sequences.
+Carl Woes pioneered the study of molecular sequences for explaining phenotype and organism evolution with concepts such as classifying life according to its molecular signature, molecular clocks, inferring phylogeny from ribosomal RNA, and discovered 3rd domain of life, archaea. The other 2 domains are bacteria and eukarya.
+:::
+
+# Life
+
+- Eukaryotes (Eukarya)
+- Archaea
+- Bacteria
+- Viruses?
+
+::: notes
+Eukaryotes have cell walls and organels within cells.
+Viruses are not considered to be alive because they do not have a metabolic system to store and consume energy and cannot replicate on their own without a host organism.
+Pandoviruses are so large they can be seen with a normal light microscope and many contain much more DNA than bacteria. So size and complexity is not the dividing line between viruses and life.
+:::
+
+# Tree of Life
+
+![Phylogenic Tree of Life based on RNA with 3 broad branches](media/phylogenetic-tree-of-life.svg.png)
+
+::: notes
+
+Phylogenic tree of life based on RNA sequence similarity.
+
+:::
 
 # Genomics
 
