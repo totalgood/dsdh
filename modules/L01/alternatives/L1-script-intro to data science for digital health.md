@@ -638,59 +638,33 @@ You can play around with it in the Jupyter notebook environment provided in this
 
 </aside>
 
-# 21: GMO Humans
+# 11: What is Machine learning?
 
-- carrier screening
-- prenatal screening
-- prenatal genetic diagnostics
+- machines doing data science automatically
 
-<aside class="notes">
-    It's import to mention the ethical ramifications coming to the forefront of medicine as a result of Data Science.
-    More and more genetic abnormalities and hereditary diseases can be predicted based on the parent genotype.
-    By selecting out these abnormalities from the human genome we are eradicating disease, but simultaneously altering the course of evolution.
-    It is called prenatal screening and carrier screening when parental blood samples are taken to identify potentially harmful genetic abnormalities.
-    It is also possible, with more invasive procedures, to diagnose genetic diseases in unborn babies.
+# 12: What is AI
 
-    All of these tests pose ethical dilemmas for parents.
-    Currently all US companies involved in prenatal screening adhere to high standards of ethics.
-    US genetic screening companies only test for known genetic diseases that are life threatening or severely limiting, such as Downs Syndrome, Sickle Cell Anemia, and Muscular Distrophy.
-    Merely undesirable qualities like correctable vision impairments, allergies, or body size preferences are not tested for and parents are not given the opportunity to select for these traits.
+- Artificial intelligence
+- a lot of linear or logistic regression
+- a lot of logistic regression
 
-    Nonetheless, in other countries and in the future, genetic testing will become more and more common place.
-    Eventually it may even be possible without the assistance of a corporate laboratory.
-    At that point the ethical challenges will be even more acute.
-</aside>
+# 13: What is Informatics
 
-# 22: Gene Editing Ethics
+- Bioinformatics
+- Genomics
+- Amiomics
+- Proteomics
+- Phenomics
 
 <aside class="notes">
-    Gene editing techniques such as CRISPR are creating even more ethical dilemmas.
-    In 2015 UK authorities approved research on genetic testing of nonviable embryos.
-    In April 2015 Chinese scientists used CRISPR to edit the genes of a nonviable human embryo.
-    The scientists were only partially successful at eliminating the genes that cause "beta thalassemia", a fatal disease.
-    Next year in April 2016 Chinese scientists again unsuccessfully edited the genes of an embryo in an attempt to impart AIDS resistance.
-    In 2018 Chinese scientists admitted that twins had been born whose genes had been unsuccessfully edited in an attempt to confer AIDS resistance.
-    So international condemnation and the moratorium in the US has not slowed the pace of gene editing technology utilization on the human germ line.
 
-    In your work as a data scientist in healthcare you will very likely be faced with ethical concerns.
-    It is important to think about these issues now, before you are faced with a financial incentive to pursue a particular approach.
+Informatics is
 </aside>
 
-[wiki-CRISPR](https://en.wikipedia.org/wiki/CRISPR_gene_editing)
-[wiki-gene-editing](https://en.wikipedia.org/wiki/Genome_editing)
-[novartis-sma-therapy](https://www.novartis.com/news/media-releases/avexis-receives-fda-approval-zolgensma-first-and-only-gene-therapy-pediatric-patients-spinal-muscular-atrophy-sma)
 
-# 23: Coaching
 
-# 24: Pharmaceuticals
 
-# 25: Clinical Diagnostics
 
-# 26: Smoking -> Lung Cancer
-
-# 27: Kidney Disease
-
-# 28: Precision
 
 # 19: Describing data
 
@@ -785,7 +759,22 @@ In this course you are learning how to take control of your own healthcare desti
 
 </aside>
 
+# Gene Editing Ethics Timeline
 
+<aside class="notes">
+
+In 2015 UK authorities approved research on genetic testing of nonviable embryos.
+In April 2015 Chinese scientists used CRISPR to edit the genes of a nonviable human embryo.
+The scientists were only partially successful at eliminating the genes that cause "beta thalassemia", a fatal disease.
+Next year in April 2016 Chinese scientists again unsuccessfully edited the genes of an embryo in an attempt to impart AIDS resistance.
+In 2018 Chinese scientists admitted that twins had been born whose genes had been unsuccessfully edited in an attempt to confer AIDS resistance.
+So international condemnation and the moratorium in the US has not slowed the pace of gene editing technology utilization on the human germ line.
+
+In your work as a data scientist in healthcare you will very likely be faced with ethical concerns.
+It is important to think about these issues now, before you are faced with a financial incentive to pursue a particular approach.
+</aside>
+
+[wiki-CRISPR](https://en.wikipedia.org/wiki/CRISPR_gene_editing)
 
 
 --
@@ -872,32 +861,6 @@ With these insights and skills you can save lives.
 ====================================================
 ====================================================
 FROM LO
-
-
-
-
-# 80: What is Machine learning?
-
-- machines doing data science automatically
-
-# 81: What is AI
-
-- Artificial intelligence
-- a lot of linear or logistic regression
-- a lot of logistic regression
-
-# 82: What is Informatics
-
-- Bioinformatics
-- Genomics
-- Amiomics
-- Proteomics
-- Phenomics
-
-<aside class="notes">
-
-Informatics is
-</aside>
 
 
 
