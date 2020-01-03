@@ -7,7 +7,7 @@
 If you're a data analyst you might be exploring a database of health-care records and hospital outcomes data.
 You'll be looking for trends and patterns that can help your hospital or insurer operate more efficiently.
 You're looking for "business-actionable intelligence."
-Often you'll have a business or helathcare background and you'll rely a lot on your hunches and intuition and domain knowledge.
+Often you'll have a business or healthcare background and you'll rely a lot on your hunches and intuition and domain knowledge.
 You'll be health care's version of a Quant (Quantitative Analyst).
 You'll be looking for health-care arbitrage and "alpha" opportunities.
 
@@ -23,7 +23,7 @@ You'll use Bayes Rule to refute the prevailing wisdom of performing mastectomy's
 And you'll probably know before anyone else that mamograms are a bad idea.
 You'll see the world like the Freakonomics authors (Steven Levitt and Stephen Dubner).
 You'll help tobacco companies defend their products or you'll help the FDA and the surgeon general find flaws in their logic.
-And if you're able to put asside your pre-1980's training you'll probably be onboard with the Causal Revolution.
+And if you're able to put aside your pre-1980's training you'll probably be onboard with the Causal Revolution.
 You'll be able to produce causal models
 
 :::

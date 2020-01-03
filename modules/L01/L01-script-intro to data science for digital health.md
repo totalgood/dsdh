@@ -2,11 +2,12 @@
 layout: slides
 title: L1 Introduction to Data Science for Digital Health
 created: 2019-12-11
+date: 2020-01-06
 ---
 
 # 0: (Talking Head)
 
-::: notes
+<aside class="notes">
 
 Welcome to the UCSD Extension Data Science for Digital Health.
 This is the second course in the Digital Health certificate.
@@ -22,15 +23,15 @@ You won't just know what these terms mean, you'll know how to use them to solve 
 It's often said that doctors touch the lives of thousands of patients with their healing diagnoses and treatments.
 By teaming up with computers, doctors and data scientists can scale that power to touch the lives of millions.
 Data Science promises to make medicine more effective and affordable for everyone.
-And unlike calculus, your statistics acumen will be useful in your daily life, even if you don't apply them to healthcare.
+And unlike the calculus skills you learned in undergrad, your statistics acumen will be useful in your daily life, even if you don't apply it to healthcare.
 
 So let’s get started!
 
-:::
+</aside>
 
 # 1: Introduction to Data Science for Digital Health (first slide)
 
-::: notes
+<aside class="notes">
 
 Welcome to the first lesson in the UCSD Extension course "Data Science for Digital Health."
 
@@ -40,86 +41,38 @@ First I will give you the agenda for this "Introduction to Data Science for Digi
 
 Our agenda will include the course syllabus and what to expect in the rest of the course.
 
-:::
-
-### Backup
-
-#### What is Data Science?
-
-- Doing science on data
-- Making predictions using data
-- Testing hypotheses using data
-- Training predictive models using data
-- Using machine learning to model the world
-
-#### What is a data scientist
-
-- A statistician that can program
-- A computer programmer than understand statistics
-- A statstician that lives in Silicon Valley
-
-#### How is it Applied to Healthcare?
-
-- Individual Clinical Healthcare
-- Occupational Health and Safety
-- Population Health (Pop Health)
-
-
+</aside>
 
 # 2: Agenda
 
-::: notes
+- approach
+- syllabus
+- data science
+- real world applications
+- the data science process
 
-In this agenda you can see that you will first build a foundation for your learning.
-This approach to learning will help you throughout the course.
-You will first learn some best practices for absorbing new material.
-You will then get an overview of exactly what data science is and why everyone is so excited to apply it to healthcare.
-Then you will see where Data Science fits in among some popular buzz words, terms like:
+<aside class="notes">
 
-    Bioinformatics
-    Machine Learning
-    Deep Learning
-    AI or Artificial Intelligence
-    Health Informatics
-    and, of course, Digital Health
+In the first two slides you will see the learning approach we will use in this course.
+You will not only learn the terminology and big picture theory behind data science, but you will also gain practical experience applying the data science process to real healthcare problems.
+And healthcare is something that we all can relate too.
+So the approaches you will learn in this course will apply to your own life.
+This will help you solidify your knowledge and ensure your data science skills continue to be relevant long after you have completed this course.
 
-You will even pick up some everyday Data Science insights that you can apply in your everyday life and personal health.
+After this overview of the learning approach, you will review the syllabus for the course so you can anticipate what is to come over the next 10 weeks of study.
 
-After that you will get familiar with the syllabus for the rest of the Data Science for Digital Health course.
-That way you know what to expect, and when in the course you will learn more about powerful technologies like AI.
-Finally, like I promised at the beginning, the general principles of Data Science will be applied to real world examples.
-You'll learn about a new machine learning algorithm in the UK that can detect kidney failure two days in advance.
-And you're not going to be able to sit back and just bask in the progress of others.
-You're going to have to learn how those UK doctors evaluated the performance of their kidney disease diagnostic tool.
-You'll start to build your own data science tool kit by learning about two important metrics for measuring a machine learning algorithm's performance.
-After that you'll learn about another useful performance score, correlation.
-You will learn how to use this metric properly without getting misled by the common misconception that correlation implies causation.
-Understanding the relationship between correlation and causation will be critical to your ability to use the power of Data Science in the real world.
-The exercises for this lecture will require you to compute correlation by hand.
-And you'll be quizzed on your ability to ask the right questions about data.
+Then you will get into the heart of today's lesson.
+You will learn what data science is and how it combines tools and ideas from several fields of study, such as: statistics, computer science, machine learning, and AI
 
-:::
+Next you will learn about some real world applications of data science to healthcare, like predicting kidney disease and breast cancer.
 
-# 3a: Data Science -> Biology
+Finally, we'll use these healthcare examples to illustrate the process of data science.
+You will learn about loading, exploring, and cleaning data to prepare if to be used as training and testing data for a data science or machine learning model.
+And you will learn how to evaluate your trained data science model, utilizing what you discover to adjust the model parameters and improve your model's performance.
 
-# Bioinformatics Spectrumm
+</aside>
 
-- Informatics (Data Science, Statistics, Computer Science)
-- Bioinformatics
-- Computational Biology
-- Biology
-- Systems Biology
-- Synthetic Biology
-- Neuroscience
-- AI
-
-::: notes
-
-When we apply the tools of Computer Science and Informatics to Healthcare we see that it is useful across a spectrum of biology specialties and medicine.
-
-:::
-
-# 3b: Big to small
+# 3: Big to small
 
 - Pop Health
 - Hospital
@@ -128,7 +81,7 @@ When we apply the tools of Computer Science and Informatics to Healthcare we see
 - Diease
 - Microbiology
 
-::: note
+<aside class="notes">
 
 In this lesson, and in this course, you will progress from big picture ideas to microscopic examples.
 You'll learn how to apply data science to some of the big picture healthcare problems first, like pop health, population health, or public health.
@@ -148,7 +101,7 @@ At each step along the way you will learn the theory behind the data science.
 Towards the end of this lesson you'll even see how data science applies to the molecular biology world of DNA, RNA, and protein sequences.
 As in this diagram, you will progress from data science on humanity to data science on the health of individual cells in the human body, like the nerve cell in this fluorescent microscopy photograph.
 
-:::
+</aside>
 
 # 4: Self-Pedagogy
 
@@ -158,7 +111,7 @@ As in this diagram, you will progress from data science on humanity to data scie
 - Approaches, tools
 - Specific Examples
 
-::: note
+<aside class="notes">
 
 Let's talk about pedagogy, the philosophy of teaching.
 Within each module you will first learn the history and philosophy of data science and healthcare.
@@ -166,7 +119,7 @@ This will help you progress through the same thought processes that great minds 
 
 That history will help you understand present-day real world examples.
 And I think you'll see how the concrete examples help you anchor your understanding.
-For example, when I think of the correlation-causation fallacy, I can't help but think of Tyler Vigen's hilarious "disovery".
+For example, when I think of the correlation-causation fallacy, I can't help but think of Tyler Vigen's hilarious "discovery".
 He showed how per-capita consumption of cheese correlated almost perfectly with death by bed sheet entanglement.
 
 You will also find how important it is to practice the skills you learn and exercise critical thinking.
@@ -192,8 +145,9 @@ Biological systems are too complex to be summarized by a model in the same way t
 But your ability to analyze data and think critically about data science and biology will help you throughout your life.
 You will learn to notice mismatches between theory and data throughout your life.
 
-note-to-self: add slides to quiz students on their critical thinking skills using general principles they should already know. use examples from a quack homeopathic medicine book or HSP book, etc. share the horoscope story or even try it on your students.
-:::
+**note-to-self**: add slides to quiz students on their critical thinking skills using general principles they should already know. use examples from a quack homeopathic medicine book or HSP book, etc. share the horoscope story or even try it on your students.
+
+</aside>
 
 # 5: Syllabus
 
@@ -208,27 +162,67 @@ Session  8:  Lecture 8:  Assistive Technology, Ethics
 Session  9:  Lecture 9:  Healthcare Systems Modeling
 Session 10: Lecture 10:  Public Health & Epidemiology
 
-::: notes
+<aside class="notes">
 
-In the first lesson of this course, titled "Data Science in Healthcare", you will explore all the applications of data science to healthcare.
+In this, the **first lesson** of the course you will explore the applications of data science to medicine.
 After this introductory lesson you will have nine more lessons in this ten week course.
-In Lesson 2, "Spreadsheet Data Science" you will use a spreadsheet application to compute descriptive statistics and create data science visualizations. This is called EDA, or exploratory data analysis.
-In Lesosn 3, you will learn how to use Python, a user-friendly programming language, to speed things up and compute statistics on larger datasets. Don't worry if you've never programmed before. Python is the only popular computer language designed from the ground up with readability and ease of use as its primary purpose. It's almost as easy to read as natural languages, like English.
-Lesson 4 will cover clinical data science where we'll use machine learning packages in Python to perform clinical diagnoses.
-In Lesson 5 you will see how to use deep learning and AI to deal with extremely high dimensional data, like radiology images.
-In Lesson six you will analyze and model the performance of hospital systems.
-In lesson eight you will tackle big picture public policy, privacy and ethics challenges.
-In lessons nine and ten you will learn how to process sequences of english words and then sequences of genes and nucleotides in DNA.
+In **Lesson 2**, titled "Spreadsheet Data Science", you will use a spreadsheet application to compute descriptive statistics and create data science visualizations. This is called EDA, or exploratory data analysis.
+In **Lesson 3**, "Statistics and Privacy", you will learn how to use Python, a user-friendly programming language, to compute statistics programatically. This just means you will learn how to build a recipe of actions that tell a machine how to process all the data in the same what that you did manually in the Spreadsheet Data Science lesson. Don't worry if you've never programmed before. Python is the only popular computer language designed from the ground up with readability and ease of use as its primary purpose. It's almost as easy to read as natural languages, like English.
+**Lesson 4** will cover clinical data science where you will use machine learning packages in Python to perform clinical diagnoses.
+In **Lesson 5** you will see how to use deep learning and artificial neural networks to deal with high dimensional data, like radiology images, EKG traces from a heart monitor, or EEG data from a electrodes monitoring ones very thoughts.
+In **Lesson 6** you will learn about my favorite topic, Natural Language Processing or NLP. You will learn how to teach a machine to read English text and even demonstrate it's understanding of the text by summarizing it or answering questions about it, just like a human. This is what most people think of when they hear the word AI.
 
-:::
+In **lesson 8** you will tackle big picture public policy, privacy and ethics challenges.
+In **Lesson 9** you will analyze and model the performance of healthcare systems, like hospitals, clinics, insurers, and other healthcare businesses. Healthcare systems often track their activities in log files or time-stamped records of activity.
+So in this lesson you will learn how to use this kind of data, called time series, in your data science models.
+In **Lesson 10** you will learn how to process sequences of nucleotides in DNA to predict disease and what's called phenotype. This will build on your understanding of natural language processing.
 
-# 6: Continuous Improvement
+</aside>
+
+
+# 6: Spectrum: Data Science for Healthcare
+
+![Data Science rainbow or color wheel: computer science, statistics, data science, biology, healthcare bioinformatics, and computer science](media/data-science-rainbow.png)
+
+<aside class="notes">
+
+You can think of this rainbow chart as a crude "artists rendering" of these fields of research and their growth over the past century.
+In this sketch you can see the spectrum of research trends that led to the current emphasis on Data Science and how they've evolved over the years.
+The middle of the chart is approximately 1940, the outer radius of the chart is the present day.
+The bottom is sometime in the 19th century.
+
+On the left you can see that the field of computer science began with the invention of the computer around the middle of the 20th century.
+As you know, interest in computer science has continued to grow rapidly since then and has found applications in math, statistics, and now data science.
+That's why you're here.
+
+This chart shows overlap with data science on the left side of this diagram.
+However computers have also revolutionized the fields of biology, medicine, and bioinformatics.
+So, like a video game, or a color wheel, the pink block for the computer science  wraps around to the right-hand side, where it overlaps with biology, bioinformatics and healthcare.
+
+Data Science for Healthcare is clearly the intersection of all of these fields of study.
+Data Science applies computer science and statistics to the problems of biology and healthcare.
+And you will soon see examples of how this is transforming healthcare.
+
+You may read or hear some additional specialized terminology within this broad concept of Data Science to healthcare.
+Some terms you might hear include: Informatics, Computational Biology, Synthetic Biology, Neuroscience, Machine Learning, Deep learning, and AI, or Artificial Intelligence.
+
+For much of this course you will be designing and evaluating machine learning models and even deep learning models.
+You can think of machine learning as simply automated or scripted data science.
+This allows you to spend more time thinking about higher level problems rather than computing statistics.
+In this course you will also learn how to use Artificial Intelligence agents or virtual assistants to help doctors make diagnoses.
+
+However, the topics of synthetic biology, neuroscience, and computational biology are outside the scope of this course.
+We will only briefly touch on these topics and will provide resources for you to explore on your own, if you are curious.
+
+</aside>
+
+# 7: Continuous Improvement
 
 - Efferent data
 - Afferent procedures
 
 
-::: notes
+<aside class="notes">
 
 In 2006 the Institute of Medicine realized that machine learning would make possible more rapid and continuous improvement to the healthcare system.
 The institute of medicine published "The Learning Healthcare System", a handbook on evidence-based medicine.
@@ -240,14 +234,14 @@ This is evidence-based medicine, which takes its cues from the "data-driven" cul
 
 Data science has tightened and accelerated this data-driven feedback loop, giving providers and patients ever more accurate and efficient tools for improving patient lives.
 
-:::
+</aside>
 
 # 6 ALTERNATIVE: Continuous Improvement Philosophy
 
 ["Learning Health System"](https://www.ncbi.nlm.nih.gov/books/NBK53494/) 2006 Instutute of Medicine report
 ["Toward Complete & Sustainable Learning Systems"](https://medicine.umich.edu/sites/default/files/2014_12_08-Friedman-IOM%20LHS.pdf) 2015 Charles P. Friedman, U. Mich.
 
-::: notes
+<aside class="notes">
 
 Afferent neuron signals carry information from your six senses to your brain.
 In the healthcare system this is the data flowing from doctors and patients into electronic healthcare records and all the disparate databases that "learn" medicine and healthcare.
@@ -264,11 +258,11 @@ It won't replace all doctors, but it has already replaced many doctors.
 The iron triangle has already been shattered in places where there are not affordable options that involve certified medical doctors or hospitals or even nurses, in some cases.
 This can have dire consequences for public health, such as the anti-vaxer campaigns on Facebook. Somoa recently passed legislation to limit the spread of measles that resulted when a small minority stopped vaccinating their children. And lawsuits have beenfiled against Facebook and other organizations complicit in this spread of misinformation.
 
-:::
+</aside>
 
 # 7: Iron Triangle
 
-::: notes
+<aside class="notes">
 
 In his book _Medicine’s Dilemmas_, William Kissick, the father of Medicare, describes three primary concerns of a healthcare system: Cost, Quality, and Access.
 Kissick recognized that these three things are tightly coupled.
@@ -283,12 +277,12 @@ Healthcare is becoming more and more a self-service industry.
 This does not mean that doctors are being replaced.
 It just means that their knowledge and insight is being "scaled out" to reach millions more than was possible in the past.
 
-:::
+</aside>
 
 
 # 8: Advantages of the Data Science Approach
 
-::: notes
+<aside class="notes">
 
 In traditional medicine, before a new treatment could be implemented, providers and researchers had to perform experiments on animals and ultimately humans.
 These experiments must be randomized to ensure that the results will be applicable to the general population.
@@ -311,14 +305,14 @@ You can't ask parents to participate in a study where they are going to be rando
 
 Data science offers the promise of Faster, cheaper, better, and more ethical medicine.
 
-:::
+</aside>
 
 [reyes-2007]: https://www.nber.org/papers/w13097.pdf "Environmental Policy as Social Policy? The Impact of Childhood Lead Exposure on Crime. Jessica Wolpaw Reyes, May 2007, NBER Working Paper 13097"
 
 
 # 10:  Data Science Pipeline
 
-::: notes
+<aside class="notes">
 
 So how can we do science on healthcare data?
 What does a data science pipeline look like?
@@ -349,7 +343,7 @@ You just need to mine the data for insight.
 You look for patterns and see what hypotheses it suggests.
 Then you can test your model on some other portion of the data or wait for new data to arrive to see if it confirms your hypothesis or not.
 
-:::
+</aside>
 
 [levitt-]: https://pubs.aeaweb.org/doi/pdfplus/10.1257/089533004773563485 "Understanding Why Crime Fell in the1990s: Four Factors that Explain theDecline and Six that Do Not. _Journal of Economic Perspectives_, Volume 18, Number 1, Winter 2004, p 163–190"
 
@@ -377,10 +371,10 @@ Then you can test your model on some other portion of the data or wait for new d
 - Proteomics
 - Phenomics
 
-::: notes
+<aside class="notes">
 
 Informatics is
-:::
+</aside>
 
 # 14: Data Science Skills
 
@@ -390,7 +384,7 @@ Clean and transform data
 Visualizing data
 Modeling data
 
-::: Notes
+<aside class="notes">
 
 note-to-self:
     - descriptive statistics (count, dimensionality, mean, standard deviation, cardinality, entropy, correlation)
@@ -422,7 +416,7 @@ As you work in a spreadsheet on your first exercise, you will quickly see the li
 This will motivate you to move on to more programmatic approaches.
 You will learn how to write small python programs that automatically accomplish everything you learned in the spreadsheet exercises, and more.
 
-:::
+</aside>
 
 # 17: Loading data
 
@@ -432,7 +426,7 @@ You will learn how to write small python programs that automatically accomplish 
 - web pages (links to HTML)
 - databases
 
-::: note
+</aside> note
 
 In Lesson 3, the first bit of Python magic you will learn is how to extract and load data.
 It will feel like casting a spell each time you give python a command and it goes out onto the web or your hard drive and retrieves nice tables of numerical data for you.
@@ -444,7 +438,7 @@ No longer will you be limited to the files you can import into Excel.
 If you want to get a head start, or take a shortcut on your spreadsheet data science assignment, search for the Pandas python package.
 You can play around with it in the Jupyter notebook environment provided in this course.
 
-:::
+</aside>
 
 # 18: Describing Data (data types)
 
@@ -456,7 +450,7 @@ Time series: treatment timelines, hospital records, EKG/EEG recordings)
 Geographic: epidemiology, maps of clinic locations
 Imagery: X-rays, MRI slices, CAT scan slices, photos of skin abnormalities
 
-::: note
+</aside> note
 
 Throughout the course you'll incrementally learn about various data types.
 You'll learn to perceive the world like a Data Scientist.
@@ -474,7 +468,7 @@ Machines can extract data and information from lengthy clinical medical records 
 And those sequences will incrementally become less and less comprehensible by humans as you learn how to use machines to process longer and more complicated sequences of data like DNA and the human genome.
 Finally you'll eventually put on your radiology hat as you examine X-ray and MRI imagery and even cell phone camera images of patients.
 You'll learn how to train a machine to see things that a human doctor might miss.
-:::
+</aside>
 
 # 19: Describing data
 
@@ -486,7 +480,7 @@ You'll learn how to train a machine to see things that a human doctor might miss
 [Teach Math through programming](https://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers) by Conrad Wolfram, TED Talk, July 2010
 [Math education doesn't add up](http://freakonomics.com/podcast/math-curriculum/) by Steven D. Levitt, Freakonomics, Oct 2019
 
-::: notes
+<aside class="notes">
 
 This slide is about statistics.
 But I didn't want to scare you by putting it in the title.
@@ -511,7 +505,7 @@ So you need to learn statistics if you are going to have interesting water coole
 
 What statistics would you use to describe these numbers? Well, there are 2 statistics that would probably
 
-:::
+</aside>
 
 
 # 20: Healthcare Applications
@@ -523,7 +517,7 @@ What statistics would you use to describe these numbers? Well, there are 2 stati
 - Disease trigger detection
 - Personalized medicine
 
-::: note
+</aside> note
 
 The two biggest applications of data science in industry have previously been advertising and finance.
 These tools for measuring, influencing and predicting the sentiment of customers and markets can be re-purposed for good in healthcare.
@@ -544,12 +538,12 @@ In the past, that clinical medical history was not even obtainable.
 For the younger of you, you may soon be able to find all of your medical records in one place.
 I don't even think your insurance company or a doctor would even entertain that idea, unless you agreed to a pretty large cash payment up front.
 You will read that same data into the python programs your will construct in this course to visualize and glean insight for free.
-:::
+</aside>
 
 
 # 17: Personalized medicine
 
-::: notes
+<aside class="notes">
 
 One of the most exciting and ethically challenging developments in Data Science and Digital Health is the growth in personalized medicine options.
 Machine learning on databases of electronic medical records and genetic test results can provide a level of personalized care never before possible.
@@ -567,11 +561,11 @@ And the ethical challenges are even more concerning in countries and regulatory 
 The perils and the promise of personalized medicine are great.
 In this course you are learning how to take control of your own healthcare destiny by harnessing data to anticipate and mitigate disease.
 
-:::
+</aside>
 
 # Gene Editing Ethics Timeline
 
-::: notes
+<aside class="notes">
 
 In 2015 UK authorities approved research on genetic testing of nonviable embryos.
 In April 2015 Chinese scientists used CRISPR to edit the genes of a nonviable human embryo.
@@ -582,7 +576,7 @@ So international condemnation and the moratorium in the US has not slowed the pa
 
 In your work as a data scientist in healthcare you will very likely be faced with ethical concerns.
 It is important to think about these issues now, before you are faced with a financial incentive to pursue a particular approach.
-:::
+</aside>
 
 [wiki-CRISPR](https://en.wikipedia.org/wiki/CRISPR_gene_editing)
 
@@ -605,7 +599,7 @@ It is important to think about these issues now, before you are faced with a fin
 
 Reference: [health.com](https://www.health.com/cold-flu-sinus/top-health-searches-google-2015)
 
-::: note
+</aside> note
 People ask search engines serious medical questions that could have a significant affect on their lives.
 Knowing about lupus may not be important to your personal health.
 But knowing how to monitor a pregnancy or tell when you might get pregnant can be life changing information.
@@ -613,7 +607,7 @@ Often people are more comfortable asking questions of DuckDuckGo than they are o
 And they'll often get more accurate, up-to-date, and detailed information than their doctor can provide.
 Search engines can provide links to real world examples and symptoms that doctors may not be comfortable discussing, for fear of alarming or misleading their patients.
 Patients can spend more time reading articles online than they can afford to spend with their doctor.
-:::
+</aside>
 
 # Virtual Assistants
 
@@ -625,7 +619,7 @@ Patients can spend more time reading articles online than they can afford to spe
 - Alexa
 
 ![](media/L1/WikiQA-92pct-ANSQ+WikiQA.png)
-::: note
+</aside> note
 People use virtual assistants and search engines as their nurse or healthcare advisor.
 Search engines have begun to incorporate direct question answering.
 DuckDuckGo can answer questions like "what is bonchitis" directly.
@@ -633,7 +627,7 @@ Search engines use Wikipedia as a knowledge base and will quote the relevant sen
 WebMD and DuckDuckGo is about to get a lot smarter.
 In December 2019, NLP researchers showed how to find the best possible Wikipedia sentence to answer any question [92% of the time].
 The previous record was 76%.
-:::
+</aside>
 
 # Everyday uses
 
@@ -645,7 +639,7 @@ The previous record was 76%.
 - Listening to Freakonomics episodes
 - Watching TED talks and
 
-::: notes
+<aside class="notes">
 
 You're going to learn the philosophy of data science, how to think like a data scientist.
 You're going to learn how to think better and how to think better about thinking.
@@ -660,7 +654,7 @@ And your clever insights will make you more than just a cocktail party hero.
 You can be a healthcare hero if you go into digital health.
 With these insights and skills you can save lives.
 
-:::
+</aside>
 
 
 
@@ -681,7 +675,7 @@ FROM LO
 
 # 6: Smoking -> Lung Disease
 
-::: notes
+<aside class="notes">
 
 Here's an example Data Science accidental expiment on the effects of smoking.
 
@@ -716,7 +710,7 @@ Back in the 60's and 70's when this debate was raging, Data Science and computer
 So it wasn't just the Tobacco company lobbyists that held up the Surgeon General's warning about smoking.
 It was the lack of Data Science knowhow and tools.
 
-:::
+</aside>
 
 [blog.kaggle.com]: http://blog.kaggle.com/2016/11/30/seventeen-ways-to-map-data-in-kaggle-kernels/ "Seventeen Ways to Map Data in Kaggle Kernels. Megan Risdal, 11/30/2016."
 
@@ -728,7 +722,7 @@ It was the lack of Data Science knowhow and tools.
 
 # 7: Trial and Error
 
-::: Notes
+<aside class="notes">
 
 Building and a Data Science model from natural experiment data is a trial and error process.
 
@@ -749,11 +743,11 @@ Once you have a trained model, all that remains is to run a "test set" or "hold 
 You can compute your accuracy on new data that your model hasn't been trained on.
 This helps you know if your model is going to be useful in the real world.
 
-:::
+</aside>
 
 # 8: Data science on "statistics"
 
-::: notes
+<aside class="notes">
 
 Let's do some data science on the word "statistics".
 
@@ -762,7 +756,7 @@ The terms "artificial intelligence", "data science", and "data analysis" started
 
 # 9: Statistics about "data science"
 
-::: notes
+<aside class="notes">
 
 So let's do some statistics on the term "data science" and some related words.
 
@@ -779,26 +773,26 @@ Usage of the word "statistics" in books and articles began to be replaced by ter
 However an around 1995 AI fell out of favor during an "AI winter", as it was called.
 Nonetheless the use of the terms "data science" and "artificial intelligence" resumed their growth around 2010.
 
-:::
+</aside>
 
 [brownlee-2016]: https://machinelearningmastery.com/what-is-deep-learning/ "Deep Learning and Artificial Neural Networks"
 
 # 10: Web search trends
 
-::: notes
+<aside class="notes">
 
 Take a look at this plot of web search statistics in recent years.
 You can see that the usage of the term "artificial intelligence" is on the rise again.
 "Deep learning" and "machine learning" also experienced rapid growth in popularity around 2012.
 It was in 2012 that Geoffrey Hinton brought back deep learning by blowing away the accuracy benchmarks of previous machine learning approaches.
 
-:::
+</aside>
 
 [trends.google.com]: https://trends.google.com/trends/explore?date=2008-07-18%202019-08-18&q=artificial%20intelligence,deep%20learning,machine%20learning "Comparison: Machine Learning, Deep Learning, and AI"
 
 # 11: Automation
 
-::: notes
+<aside class="notes">
 
 You may have noticed trends in the statistics of data science terminology popularity.
 There seems to be growing interest in the automation of data science.
@@ -836,12 +830,12 @@ These regions of miscolored pixels could have been lung disease, lung cancer, or
 
 We'll talk about the challenge of interpretting and explaining Data Science models in the upcoming course Digital Health Data Science.
 
-:::
+</aside>
 
 
 # 12: Syllabus
 
-::: notes
+<aside class="notes">
 
 In the Digital Health Data Science course next quarter you'll learn about the applications of data science to health care.
 In each lecture you'll learn how to solve a new kind of health care problem using data science.
@@ -878,11 +872,11 @@ You'll learn about privacy and public policy issues that some scientists fear co
 Proj: At the end of the course you'll be given the oportunity to participate in a data science project of your own chosing.
 This will be much like a real world data science project that you can tailor to an application that interests you.
 
-:::
+</aside>
 
 # 13: Example Application: Predict Kidney Injury
 
-::: notes
+<aside class="notes">
 
 Let's dive into an exciting recent development in data science.
 
@@ -903,13 +897,13 @@ The training set for DeepMind's model consisted of young men in the military.
 Women represented only 10% of the data.
 This means it is fine tuned to protect men and will not be as effective for women.
 
-:::
+</aside>
 
 [deepmind-2019-aki]: https://www.nature.com/articles/s41586-019-1390-1.epdf) "DeepMind predicts kidney injury"
 
 # 14: Precision
 
-::: notes
+<aside class="notes">
 
 So let's talk about some more precise ways to measure the performance of a model like DeepMind's AKI predictor.
 This will help you give doctors the information they need to recommend treatment.
@@ -920,21 +914,21 @@ This is also sometimes called the true positive rate (TP) or the positive predic
 
 You can see from the formula here, that precision is calculated as the ratio of the correct positive classifications to the total number of positive classifications.
 
-:::
+</aside>
 
 # 15: Recall
 
-::: notes
+<aside class="notes">
 
 Recall is a measure of the accuracy of an algorithm for the patients actually suffering from the predicted condition.
 Recall is the percentage of patients with a disease that were detected with a particular test or predicted by a particular algorithm.
 So for the DeepMind Kidney Failure predictions, this would be the number of patients who were correctly predicted to have kidney injury divided by the total number of patients whose kidneys were actually injured.
 
-:::
+</aside>
 
 # 16: Correlation
 
-::: notes
+<aside class="notes">
 
 Correlation between variables is the pattern a machine learning algorithm or data scientist is looking for.
 If the disease probability goes up right after some other variable goes up, and if disease probability goes down when the variable goes down, that's called correlation.
@@ -947,13 +941,13 @@ From these plots it looks like cancer deaths among women seemed to go down as ma
 This is the kind of data that drove CDC (The Center for Disease Control) to recommend wide spread mammograms.
 But if you dig a little deeper, things aren't quite as they seem.
 
-:::
+</aside>
 
 [desantis-2011]: https://onlinelibrary.wiley.com/doi/full/10.3322/caac.20134 "Breast cancer statistics, 2011"
 
 # 17: Correlation is not enough
 
-::: notes
+<aside class="notes">
 
 Perhaps another correlation example would help.
 Can you see a pattern here?
@@ -969,13 +963,13 @@ And all he had to do to generate these plots was to scrape the web for pairs var
 And the combinations of variables you can consider in health care or any other field is virtually endless.
 So you need some more tools to separate spurious correlation from real causal relationships.
 
-:::
+</aside>
 
 [vigen-2013]: http://tylervigen.com "Tyler Vigen's catalog of spurious correlations."
 
 # 18: Traditional approach (the Bradford Hill Criteria)
 
-::: notes
+<aside class="notes">
 
 In the past, statisticians had to come up with some rules of thumb, a checklist of viewpoints from which to examine the data.
 If many of these criteria were met, then the evidence was said to be overwhelming.
@@ -1003,11 +997,11 @@ If there is a plausible biological mechanism for the relationship, it may be cau
 Despite these rigorous criteria, spurious correlations and confounders can still produce misleading results.
 This is one of the reasons why we seem to get conflicting advice from year to year on things like diet and exercise and their affect on our health.
 
-:::
+</aside>
 
 # 19: Causal or Confounder
 
-::: notes
+<aside class="notes">
 
 Fortunately there's a better way than leaning on the fuzzy Hill Criteria.
 Judea Pearl has been a "causal revolution" evangelist since the 1990's.
@@ -1035,11 +1029,11 @@ In some cases we can **normalize for** these confounding variables.
 In other cases that normalization can create an unintended confounding effect, called the "explain away effect".
 In the Digital Health Data Science course I'll show you how to manipulate influence diagrams so that you can perform this normalization correctly.
 
-:::
+</aside>
 
 # 20: Bayes Rule
 
-::: notes
+<aside class="notes">
 
 Another common mistake when thinking about correlation is the failure to consider the *prior* or the probability of the event before you start to measure it.
 For example, the probability that an aspirin is going to stop your headache in 30 minutes should take into account the probability that the headache would go away on its own in 30 minutes.
@@ -1057,11 +1051,11 @@ First we need to know how likely the test is to detect the disease, the probabil
 Then we need to divide that by the probability of the test returning a positive result in general among the entire population.
 Finally, we need to multiply this by the prior probability of the disease affecting any individual like you in the population.
 
-:::
+</aside>
 
 # 21: Bayes Rule
 
-::: notes
+<aside class="notes">
 
 Because this is such an important concept, and it's been in the news recently, you should use some real numbers to apply Bayes Rule to mammograms.
 Each year 1 in 700 women over the age of 40 in the UK contract breast cancer.
@@ -1077,11 +1071,11 @@ Finally you need to compute the positive test result rate for a mammogram.
 This is the weighted average of the rates for the False Positive and True Positive Rates.
 For the mammogram test this is 12.1%, because only 1 in 700 women contract breast cancer each year.
 
-:::
+</aside>
 
 # 22: Example: Mammograms and breast cancer
 
-::: notes
+<aside class="notes">
 
 Now, apply Bayes' Rule using these values: The disease rate, the true positive rate, and the total positive test rate.
 When you follow Bayes' rule and multiply out these probabilities you'll find that a woman's probability of having cancer after a single positive mammogram is less than 1%.
@@ -1091,13 +1085,13 @@ The CDC also recommended a less frequent biennial screening rather than annual s
 Mammograms are painful and can be emotionally traumatic if they produce a positive test result.
 For many women the risks outweigh the benefit until the age of 50 when Bayes' rule begins to show a net benefit for women having mammograms.
 
-:::
+</aside>
 
 [cdc-2016]: https://www.cdc.gov/cancer/breast/pdf/BreastCancerScreeningGuidelines.pdf "Breast Cancer Screening Guidelines for Women. 2016"
 
 # 23: Deep Learning
 
-::: notes
+<aside class="notes">
 
 Bayes rule and other statistical equations can be tricky to implement correctly.
 Medical practitioners and patients often get the math wrong.
@@ -1116,7 +1110,7 @@ In 2016, Stanford researchers showed that deep learning networks were able to de
 And in 2018 researchers in the UK used deep learning models to detect skin melanomas with nothing more than a mobile phone camera image of the patient's skin.
 Now AI dermatologists can make house calls without leaving the hospital.
 
-:::
+</aside>
 
 [stanford-2018]: https://engineering.stanford.edu/magazine/article/ai-rivals-radiologist-level-x-ray-screening-certain-lung-diseases "AI rivals radiologist-level X-ray screening for certain lung diseases"
 
@@ -1126,21 +1120,21 @@ Now AI dermatologists can make house calls without leaving the hospital.
 
 # 24: Neural network
 
-::: notes
+<aside class="notes">
 
 Why don't you try out a deep learning neural network for yourself.
 Take a break from math and play around with neural networks and deep learning.
 This neural network playground doesn't have any high dimensional data, but it will help you to see how neural networks are similar to linear regression.
 You'll also see that you need to add more and more layers and neurons as the dataset becomes more complicated.
 
-:::
+</aside>
 
 [nueralnet-playground]: http://playground.tensorflow.org "Neural Network Playground (Google TensorFlow)"
 
 
 # 25: Explainability
 
-::: notes
+<aside class="notes">
 
 In order to effectively employ deep learning and artificial intelligence in health care it's helpful to be able to explain the algorithm that produced the prediction.
 There are typically many millions of learned parameters in a neural network for high dimensional data like radiology images.
@@ -1165,21 +1159,21 @@ You can combine them together by weighting the ones that are most important to t
 
 And the gradient (slope) of the activation is an even better indication of the region's importance than the raw activation for the individual filters.
 
-:::
+</aside>
 
 # 26: Assignments
 
-::: notes
+<aside class="notes">
 
 So that's it.
 Now is your chance to put your new Data Science tools to work.
 You'll now take a quiz to exercise your knowledge, and then you'll be given some problems to work on at home.
 
-:::
+</aside>
 
 # 27: Quiz
 
-::: notes
+<aside class="notes">
 
 Question number 1. give two applications of DAta Science to Health Care.
 Question number 2, How is **Deep Learning** applicable to Health care?
@@ -1187,11 +1181,11 @@ Question number 3, Will Artificial Intelligence replace doctors?
 Question number 4, Why or why not?
 Question number 5, If a blood test for a particular disease has a False Positive rate of 10% and a False Negative rate of 30%, what’s the test’s precision  (positive predictive value) and  recall (sensitivity)?
 
-:::
+</aside>
 
 # 28: Homework
 
-::: notes
+<aside class="notes">
 
 Visit playground.tensorflow.org
 Select the spiral dataset and add 20% Noise
@@ -1199,9 +1193,65 @@ Add and remove different combinations of features: x1, x2, x1^2, x2^2, x1*x2, si
 Play around with different numbers of “HIDDEN LAYERS” and neurons per layer.
 How many features, hidden layers and total neurons do you need achieve < 15% test set loss?
 
-:::
+</aside>
+
+# Backup
+
+## What is Data Science?
+
+- Doing science on data
+- Making predictions using data
+- Testing hypotheses using data
+- Training predictive models using data
+- Using machine learning to model the world
+
+## What is a data scientist
+
+- A statistician that can program
+- A computer programmer than understand statistics
+- A statstician that lives in Silicon Valley
+
+## How is it Applied to Healthcare?
+
+- Individual Clinical Healthcare
+- Occupational Health and Safety
+- Population Health (Pop Health)
 
 
 
+
+## Overview of Data Science for Healthcare
+
+<aside class="notes">
+
+In this agenda you can see that you will first build a foundation for your learning.
+This approach to learning will help you throughout the course.
+You will first learn some best practices for absorbing new material.
+You will then get an overview of exactly what data science is and why everyone is so excited to apply it to healthcare.
+Then you will see where Data Science fits in among some popular terminolgy:
+
+    Machine Learning
+    Deep Learning
+    AI or Artificial Intelligence
+    Bioinformatics
+    Health Informatics
+    and, of course, Digital Health
+
+You will even pick up some everyday Data Science insights that you can apply in your everyday life and personal health.
+
+After that you will get familiar with the syllabus for the rest of the Data Science for Digital Health course.
+That way you know what to expect, and when in the course you will learn more about powerful technologies like AI.
+Finally, like I promised at the beginning, the general principles of Data Science will be applied to real world examples.
+You'll learn about a new machine learning algorithm in the UK that can detect kidney failure two days in advance.
+And you're not going to be able to sit back and just bask in the progress of others.
+You're going to have to learn how those UK doctors evaluated the performance of their kidney disease diagnostic tool.
+You'll start to build your own data science tool kit by learning about two important metrics for measuring a machine learning algorithm's performance.
+After that you'll learn about another useful performance score, correlation.
+You will learn how to use this metric properly without getting misled by the common misconception that correlation implies causation.
+Understanding the relationship between correlation and causation will be critical to your ability to use the power of Data Science in the real world.
+The exercises for this lecture will require you to compute correlation by hand.
+And you'll be quizzed on your ability to ask the right questions about data.
+
+<aside class="notes">
 
 
