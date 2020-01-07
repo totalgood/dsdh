@@ -7,6 +7,8 @@ archive/
 *.tmp
 *.tmp.*
 *~
+*~
+.~*
 *.py[cod]
 *.so
 *.cfg
