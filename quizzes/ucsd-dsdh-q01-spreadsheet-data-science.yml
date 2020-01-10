@@ -1,0 +1,22 @@
+# Spreadsheet Data Science
+
+-
+Q: What are some potential advantages of spreadsheet data science when compared to programatic data science?
+A:
+    - Most people that can use a computer skills can help giving your a much broader perspective on the data and the results.
+    - Greater transparency.
+    - Greater buyin from stakeholders and collaborators who have access to the spreadsheet.
+    - Greater transportability.
+    - Greater modularity (data and code are consolidated in one file).
+    - Data errors are sometimes more aparent.
+-
+Q: What are some limitations of spreadsheet data science when compared to programatic data science?
+A:
+    - It's slower.
+    - Not parallelizable.
+    - Because it's slower and not parallelizable you can iterate
+    - It is generally limited to smaller datasets.
+    - For large datasets, transparency and approachability will be reduced.
+    - Data errors are sometimes more aparent.
+What
+
