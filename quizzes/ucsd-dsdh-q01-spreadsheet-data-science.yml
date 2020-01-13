@@ -18,5 +18,12 @@ A:
     - It is generally limited to smaller datasets.
     - For large datasets, transparency and approachability will be reduced.
     - Data errors are sometimes more aparent.
-What
+-
+Q: How much data does it take data to be "Big Data"?
+    - Files larger than a GB are usually too large to load into RAM and manipulate efficiently.
+-
+Q: What is "swap space"? What is "swapping"?
+    - Swap space is the hard drive space that is used as memory (RAM) for your computer when it runs out of memory (RAM).
+Q: How can you tell if your computer is swapping?
+
 
