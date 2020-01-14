@@ -2,7 +2,7 @@
 
 # 2: Agenda
 
-# 3: Nice Features
+# 3: Spreadsheet Advantages
 
 Approachable
 Universal
@@ -94,6 +94,88 @@ And, like them, hopefully this taste of data science will inspire you to learn m
 ### References
 
 - [Jasmine Sturr parkinsons phenome project](https://youtu.be/XeGLPWfg9qQ)
+- [Dana Lewis ted talk](https://www.youtube.com/watch?v=kgu-AYSnyZ8)
 - [Dana Lewis insulin pump](https://medicalxpress.com/news/2019-06-hacking-diabetes-people-insulin-alternative.html)
+
+# Patient Intake Example
+
+<aside class="notes">
+
+To get a feel for the advantages and disadvantages of spreadsheets you're going to work through an example on some real data.
+You may have seen the weight-guessing machine or magician at your county fair.
+But did you know that the magician is using data science to guess your weight?
+If it's a machine guessing your weight then you can legitimately call it a machine learning system.
+
+All joking aside, a weight guessing can be valuable in the clinical setting as well.
+Imagine you have some historical patient records that are missing weight information, and you'd like to improve your data science model of your patient's diagnosis?
+
+Or imagine that you just want to use a weight prediction to help you detect outliers or anomalies that might be indicative of a disease.
+Outlier data points are measurements that are outside the normal range of measurements that you'd expect to see.
+If you just set your range based on all the weights of humans around the world, you'd miss a lot of potentially diseased people.
+If you just take into account a person's height and gender you can narrow your normal range quite a bit.
+It's become so useful at diagnosing disease that the model has been incorporated into what's known as the BMI or Body Mass Index.
+This is a number that tells a physician how far your weight is from the normal range expected for someone of your height.
+
+Incidentally, to prepare this dataset I ended up using python to shuffle the records because my spreadsheet application doesn't provide a shuffle function.
+In python this is a simple one-line command and takes milliseconds to run.
+
+</aside>
+
+# Patient Intake Example
+
+<aside class="notes">
+
+To get a feel for the advantages and disadvantages of spreadsheets you're going to work through an example on some real data.
+You may have seen the weight-guessing machine or magician at your county fair.
+But did you know that the magician is using data science to guess your weight?
+If it's a machine guessing your weight then you can legitimately call it a machine learning system.
+
+All joking aside, a weight guessing can be valuable in the clinical setting as well.
+Imagine you have some historical patient records that are missing weight information, and you'd like to improve your data science model of your patient's diagnosis?
+
+Or imagine that you just want to use a weight prediction to help you detect outliers or anomalies that might be indicative of a disease.
+Outlier data points are measurements that are outside the normal range of measurements that you'd expect to see.
+If you just set your range based on all the weights of humans around the world, you'd miss a lot of potentially diseased people.
+If you just take into account a person's height and gender you can narrow your normal range quite a bit.
+It's become so useful at diagnosing disease that the model has been incorporated into what's known as the BMI or Body Mass Index.
+This is a number that tells a physician how far your weight is from the normal range expected for someone of your height.
+
+</aside>
+
+
+# Insulin Pump Hack
+
+1973: wearable insulin pump (Dean Kaman)
+2003: wearable CGM (glucose monitoring)
+2013: Dana adds #DIYPS to #WeAreNotWaiting
+2015: Dana Lewis hacks an artificial pancreas
+2017: Medtronic integrates Dana's technology
+2018: Medtronic notifed of security vulnerability
+2019: FDA recalls MiniMed insulin pumps
+
+<aside class="notes">
+
+Now that you know all the cool Data Science you can do with spreadsheets you're ready to take it to the next level.
+Do you remember Dana Lewis and her insulin pump hack from the beginning of this lesson?
+Dana wasn't satisfied to merely limit her data science to a desktop spreadsheet that she used to track her glucose levels.
+First she wrote software to increase the volume and improve the precision of her glucose alarm by wirelessly connecting to her CGM.
+Then in 2014 her friends in the #DIYPS community helped her reverse engineer the electrical interface on her Medtronic insulin pump and glucose monitor.
+After months of testing her software on a Raspberry Pi she eventually used it on herself to create the first field-tested artificial pancreas.
+A Raspberry Pi is a single board computer about the size of a stack of 50 business cards that can run for hours on a portable battery pack.
+
+Medtronic engineers generously decided to license the open source software to incorporate it into their system.
+But hackers were able to find security vulnerabilities in Medtronics implementation in 2018 and Medtronic was unable to update the software to protect users so FDA recalled several models.
+The DIY systems are not vulnerable to the hacks and are now the only affordable option for many diabetics.
+
+So if you want to take your Data Science and spreadsheet formulas to the next level you'll need to learn a little programming.
+Python is a lot like the visual basic scripts you are used to in using in spreadshets, only Python is a lot more understandable and powerful.
+
+</aside>
+
+### References
+
+[Diyps.org/about/dana-lewis/](https://diyps.org/about/dana-lewis/)
+
+
 
 
