@@ -97,6 +97,52 @@ And, like them, hopefully this taste of data science will inspire you to learn m
 - [Dana Lewis ted talk](https://www.youtube.com/watch?v=kgu-AYSnyZ8)
 - [Dana Lewis insulin pump](https://medicalxpress.com/news/2019-06-hacking-diabetes-people-insulin-alternative.html)
 
+# Healthcare Applications
+
+Patient “intake”
+Operations management
+Insurance actuarial tables
+Presentation (visualization)
+Cooperative analysis
+
+<aside class="notes">
+
+    In addition to the personalized medicine and DIY uses for spreadsheet data science to manage your own healthcare, spreadsheets are often used to manage clinical records.
+    EHR systems are replacing the use of spreadsheets in Europe and the US but in many internation communities, spreadsheets are still widely used for patient data.
+    Spreadsheets nicely compartmentalize ones data and separate it from other patients' data.
+    When you incorporate clinical data into a normalized database management system or EHR system you greatly expand the value of the data but add significant complication and privacy challenges.
+    You only have to look at the numerous EHR systems that have been attempted and failed in the US to see this.
+
+    Even in the US spreadsheets are still the tool of choice for many healthcare organization administrators, executives, manageers, and accountants.
+    Financial and quality of care models are often first drafted in spreadsheets before handed over to data scientists for further analysis.
+    And data scientists will often export their models back into spreadsheets for dissemination among colleagues and management.
+    Clinical personnel often find the visualization and data manipulation features of spreadsheets sufficient to meet their needs.
+
+    In a clinical setting the transparency and approachability of spreadsheets is a big advantage.
+    It can often be the difference between finding and dealing with missing or erroneous data before it's too late.
+    The more eyes that are looking at a dataset the more likely errors will be caught.
+    However, in later lessons you'll learn how to augment human eyes with automatic anomaly detection algorithms.
+    This is your only option when your dataset grows too large for manual human inspection.
+</aside>
+
+Tabular data
+Relational data
+Hospital, insurance, and pharmaceutical company databases
+Images
+X-Rays, MRI files, dermatology visible images
+Time series
+Hospital records, log files, audio
+Image time series
+Video of patient interviews (Awakenings)
+Unstructured data (natural language):
+Doctor & nurse notes
+
+<aside class="notes">
+    So far you've only seen tabular data in our discussion of the various
+</aside>
+
+
+
 # Patient Intake Example
 
 <aside class="notes">
@@ -121,26 +167,38 @@ In python this is a simple one-line command and takes milliseconds to run.
 
 </aside>
 
-# Patient Intake Example
+# 6: Kinds of Datasets
 
-<aside class="notes">
+Tabular data
+Relational databases (SQL)
+Hospital, insurance, pharma, etc
+Images
+X-Rays, MRI, CAT, dermatology
+Time series
+Hospital records, log files, audio
+Image time series
+Video of patient interviews (Awakenings)
+Unstructured data (natural language):
+Doctor & nurse notes
 
-To get a feel for the advantages and disadvantages of spreadsheets you're going to work through an example on some real data.
-You may have seen the weight-guessing machine or magician at your county fair.
-But did you know that the magician is using data science to guess your weight?
-If it's a machine guessing your weight then you can legitimately call it a machine learning system.
+# 7: Spreadsheet Tabs vs Relational Database Tables
 
-All joking aside, a weight guessing can be valuable in the clinical setting as well.
-Imagine you have some historical patient records that are missing weight information, and you'd like to improve your data science model of your patient's diagnosis?
+Relational Database captures relationships
+Structured Query Language (SQL):
+`SELECT IQ.Age FROM Patient WHERE Patient.Height > 65`
 
-Or imagine that you just want to use a weight prediction to help you detect outliers or anomalies that might be indicative of a disease.
-Outlier data points are measurements that are outside the normal range of measurements that you'd expect to see.
-If you just set your range based on all the weights of humans around the world, you'd miss a lot of potentially diseased people.
-If you just take into account a person's height and gender you can narrow your normal range quite a bit.
-It's become so useful at diagnosing disease that the model has been incorporated into what's known as the BMI or Body Mass Index.
-This is a number that tells a physician how far your weight is from the normal range expected for someone of your height.
+# 8: NOSQL Database (Graph Database)
 
-</aside>
+Deep, dynamic relationships
+
+# 9: Data Dichotomies
+
+Continuous vs discrete
+Categorical vs numerical
+High-D, Low-D
+Structured (Labeled) vs unstructured
+Deterministic vs Chaotic/Random (Noise)
+Big (“out of core”) vs small
 
 
 # Insulin Pump Hack
