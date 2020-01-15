@@ -2,6 +2,31 @@
 
 # 2: Agenda
 
+Advantages: When to use a spreadsheet
+Applications: DIY, Healthcare
+Data: Datatypes
+Database: Relational database , Graph database (nosql)
+Spreadsheet statistics: Sum, mean, standard deviation
+Spreadsheet visualization: Scatter plots & histograms
+Spreadsheet modeling: Linear regression, Classification
+
+<aside class="notes">
+    In this Lesson you will first learn about some reasons why you might use spreadsheets for data science and when you might want to use a programming language like python instead.
+    Next you will hear the stories of DIY doctor-yourself individuals using spreadsheet data science to improve their health.
+    In some cases these citizen science heroes are saving lives by sharing their discoveries with the global open source community.
+    Once you are motivated by these inspiring stories of healthcare democratization, you'll dig into the nitty gritty of the data types you'll encounter when working with healthcare data.
+    Then you'll see where this structured tabular healthcare data normally lives, in databases.
+    And you learn how data is normally retrieved from these databases whether they be on your phone, on the servers at your office, or in the "cloud."
+    Then you'll learn how to convert these various real world datasets into a form appropriate for data science, whether you downloaded your data from the web, a database, or servers your office.
+    Then you will see how having your data in this form enables your spreadsheet to produce some informative plots and visualizations.
+    Then you'll compute some descriptive statistics in a spreadsheet with a simple but useful healthcare dataset.
+    And you'll see how these **descriptive** statistics can be used as **predictive** statistics.
+    This will help you create your first data science model that you can use in the real world, at home, in a research lab, or even in a clinical setting.
+    Finally you'll wrap up this lesson by extending your statistical data science model to become a machine learning.
+    Yes, even machine learning is possible with a spreadsheet of data.
+    All you need is a few columns of numerical data that you are interested in.
+</aside>
+
 # 3: Spreadsheet Advantages
 
 Approachable
@@ -12,8 +37,9 @@ Data + Code + Graphics
 Killer feature: automatic filters
 
 <aside class="notes">
-    Spreadsheets are approachable for everyone in your organization.
-    I was barely 13 when I saw my first spreadsheet and helped an accountant build his first formula in Lotus 1-2-3.
+    Spreadsheets are approachable for everyone in your organization and perhaps everyone in your family.
+    I saw my first spreadsheet as a pre-teen.
+    An accountant asked more my help building a formula in his bookkeeping spreadsheet for a healthcare organization.
     You know you have an approachable and intuitive UX when a 13 yr old can use it without reading an instuction manual.
 
     And because they are so approachable, spreadsheets are everywhere.
