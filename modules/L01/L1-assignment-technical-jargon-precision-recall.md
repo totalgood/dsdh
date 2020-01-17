@@ -26,29 +26,28 @@ Data scientists do this too. But it may seem a bit like posturing when a statist
 
 
 
-# T1-Q1: Applications
-
-List at least two applications of Data Science to Healthcare.
-
-# T1-A1: Applications
-
-1. Clinical diagnosis
-2. Radiology
-3. Hospital system improvement (Population health)
-4. Epidemic forecasting (Epidemiology)
-5. Genomics
-6. Clinical disease prediction (Kidney disease)
-7. Identify possible causes of disease (Smoking -> Lung disease)
-
-
-
-# T2-Q2: Iron Triangle
-
-What is the Iron Triangle of healthcare?
-
-# T2-A2: Iron Triangle
-
-The Iron Triangle represents the belief that there are rigid constraints on the tradeoffs between healthcare cost (affordability), access (choice), and quality. It is the belief that if cost is reduced then so must the quality or the availability or treatment options. Likewise it is the belief that if healthcare quality is improved then quality or access to healthcare will suffer.
+Q1:
+    title: Applications
+    context: DSDH-L1
+    page: ?
+    question_type: list
+    minimum_answers: 2
+    question: List at least two applications of Data Science to Healthcare.
+    answer:
+        - Clinical diagnosis
+        - Radiology
+        - Hospital system improvement (Population health)
+        - Epidemic forecasting (Epidemiology)
+        - Genomics
+        - Clinical disease prediction (Kidney disease)
+        - Identify possible causes of disease (Smoking -> Lung disease)
+Q2:
+    title: Iron Triangle
+    context: DSDH-L1
+    page: ?
+    question: What is the Iron Triangle of healthcare?
+    question_type: free text
+    answer: "The Iron Triangle represents the belief that there are rigid constraints on the tradeoffs between healthcare cost (affordability), access (choice), and quality. It is the belief that if cost is reduced then so must the quality or the availability or treatment options. Likewise it is the belief that if healthcare quality is improved then quality or access to healthcare will suffer."
 
 
 
