@@ -14,11 +14,19 @@ layout: slides
 - probability is a truth table or possibilities table
 - regression to the mean, central limit theorem
 - heights/weights
+- 2D distribution as 2 dice rolled in confusion matrix
+- 2D distribution of height/weight
+- normalized 2D distribution and z-scores
+- rings of target as 1-sigma bands or z-score increments of .2 or .5
+- conditional probability as dungeons and dragons die rolls
+- conditional probability as test for disease (continuous = blood test and tumor size)
 - accuracy formula and target graphic
 - python example (dots on target like wikipedia)
 - accuracy of our regression height vs weight
 - precision formula and target graphic
 - precision of our regression of height vs weight model (accuracy - bias)
+- bayes rule
+- real world example of bayes rul
 
 
 # Accuracy

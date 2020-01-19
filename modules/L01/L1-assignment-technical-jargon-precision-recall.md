@@ -48,32 +48,20 @@ Q2:
     question: What is the Iron Triangle of healthcare?
     question_type: free text
     answer: "The Iron Triangle represents the belief that there are rigid constraints on the tradeoffs between healthcare cost (affordability), access (choice), and quality. It is the belief that if cost is reduced then so must the quality or the availability or treatment options. Likewise it is the belief that if healthcare quality is improved then quality or access to healthcare will suffer."
-
-
-
-# T2-Q3: AI
-
-Will AI replace doctors in the next 20 years? Why or why not?
-
-# T2-A3: AI
-
-No. Because machines and artificial intelligence software will not be able to:
-
-1. perform all forms of surgery without supervision by an expert,
-
-2. exercise creativity and generalization in the face of new circumstances or conditions,
-
-3. nor exercise judgment that takes into account the payoff and risks for the patient in terms of the quality of life dimensions that are important to the patient and society
-
-Some of the responsibilities of doctors will be significantly reduced, such as the need to make diagnosis based on radiology imagery, monitor for and predict drug interactions, side effects, and predicting the likelihood of a particular diagnosis being correct. However, doctors will then be able to use more of their time doing those things that machines will likely not do as well:
-
-1. communicating with patients to gather qualitative information
-
-2. communicating treatment options to the patient
-
-3. exercising human judgment based on the costs, risks, and potential payoffs of the possible treatment options.
-
-
+Q3:
+    title: AI
+    context: DSDH-L1
+    page: null
+    question: Will AI replace doctors in the next 20 years? Why or why not?
+    answer: "AI will change doctors' roles so that they are required to do less diagnosis and prediction and spend more of their time exercising judgement about the correct course of treatment based on a balance between quality of life, cost, risk, patient desires and needs, and the patients' families' desires and needs. No, AI will not replace all doctors. Because machines and artificial intelligence software will not be able to:
+        1. perform all forms of surgery without supervision by an expert,
+        2. exercise creativity and generalization in the face of new circumstances or conditions,
+        3. nor exercise judgment that takes into account the payoff and risks for the patient in terms of the quality of life dimensions that are important to the patient and society
+    Some of the responsibilities of doctors will be significantly reduced, such as the need to make diagnosis based on radiology imagery, monitor for and predict drug interactions, side effects, and predicting the likelihood of a particular diagnosis being correct. However, doctors will then be able to use more of their time doing those things that machines will likely not do as well:
+    1. communicating with patients to gather qualitative information
+    2. communicating treatment options to the patient
+    3. exercising human judgment based on the costs, risks, and potential payoffs of the possible treatment options.
+    "
 
 # T1-Q4: Precision & Recall
 
