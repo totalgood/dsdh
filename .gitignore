@@ -58,6 +58,11 @@ MANIFEST
 # Per-project virtualenvs
 .venv*/
 
+# large datasets
+bigdata
+*.zip
+*.gz
+
 # secrets
 credential*
 secret*
