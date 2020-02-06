@@ -7,6 +7,17 @@
 # And then we can compress several words into acronyms to consolidate multiple complex concepts under one "umbrella" concept.
 # Smart people can think analogously across domains, sharing words and concepts and brain neurons between domains.
 
+Endogenous variable: "A variable is said to be endogenous within a causal model if its value is determined or influenced by one or more of the independent variables driving the model predictions. This may also sometimes be referred to as the outcome variable or the output of a causal model. See Also: *target variable*, *predicted variable*, *dependent variable* #data-science"
+Exogenous variable: A variable is said to be exogenous for a causal model if its value influences or determines the independent or endogenous variables. These exogenous variables may or may not be measured or controled for and if they are not they are call confounding variables or confounders.  #data-science
+confounder: [confounding variable]
+confounding variable: "See Also: *confounder* #data-science"
+target variable: "The dependent variable or the variable you want to predict using a data science or machine learning model. See Also: *target* #data-science"
+target: [target variable, endogenous variable, predicted variable, target variable]
+dependent variable: [endogenous variable, predicted variable, target variable, target]
+predicted variable: [dependent variable, endogenous variable, target variable, target]
+probability: The likelihood that an even will occur. The proportion of events that would result in one particular outcome in the limit as the number of trials (events such as dice rolling) approaches infinity. #statistics #data-science
+complementary rule: "The idea that the probability of one even is equal to one minus the probability of it's complement (logical oposite). In math: P(A) = 1 - P(not A)."
+
 Autism Spectrum Disorder (ASD): A developmental disorder that affects communication and behavior. It is called a *developmental disorder* because symptoms generally appear in the first two years of life. It is called a *spectrum disorder* because a wide range of behaviors are associated with the condition and these behaviors a often ranked on a linear scale from less severe to more sever. #medicine #neuroscience #clinical #healthcare #psychology
 Adeno-Associated Virus (AAV): An genetic therapy delivery vector that preferntially integrate into coding regions of the host gene and can care up to 8 kb genes (e.g. beta-globin genes). Safety was demonstrated in late 1990s for hemophilia B gene therapy.
 American College of Physicians (ACP): Publish guidelines such as bi-annual mammograms after the age of 60. #healthcare
