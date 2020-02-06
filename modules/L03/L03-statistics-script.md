@@ -549,6 +549,15 @@ You will learn how to use the Gamma distribution in future lessons.
 
 # 22: Normal (Gaussian) Distribution Confidence Intervals
 
+<aside class="notes">
+    Computing confidence intervals is a bit more challenging than computing a fundamental statistic like mean or standard deviation.
+    An interval is a region of the number line, like the horizontal axis in these plots.
+    An interval is defined by it's left and right boundaries, the min and max values for those boundaries.
+    If we can compute the area underneath the probability distribution between those two boundaries that will tell us the probability that any value within that interval might occur.
+    under a probability density function or probability distribution tells us how likely a value is to occur within that area.
+    For the histograms or discrete probability distributions shown here on the right, this is relatively straight forward.
+    Like we did before we just need to add up all the counts in each bar for a region that we are interested in within our interval.
+    </aside>
 
 ### References
 
