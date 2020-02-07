@@ -550,14 +550,106 @@ You will learn how to use the Gamma distribution in future lessons.
 # 22: Normal (Gaussian) Distribution Confidence Intervals
 
 <aside class="notes">
-    Computing confidence intervals is a bit more challenging than computing a fundamental statistic like mean or standard deviation.
+    Computing confidence intervals is a bit more challenging than computing a descriptive statistic like mean or standard deviation.
     An interval is a region of the number line, like the horizontal axis in these plots.
     An interval is defined by it's left and right boundaries, the min and max values for those boundaries.
     If we can compute the area underneath the probability distribution between those two boundaries that will tell us the probability that any value within that interval might occur.
     under a probability density function or probability distribution tells us how likely a value is to occur within that area.
     For the histograms or discrete probability distributions shown here on the right, this is relatively straight forward.
     Like we did before we just need to add up all the counts in each bar for a region that we are interested in within our interval.
+
+    And for the continuous case, fortunately there is a rule to help us compute the confidence interval for the standard normal distribution or bell curve.
+    The rule is called the 68, 95, 99.7 rule.
+    The name of the rule contains all the numbers you need.
+    For the red confidence interval shown in this plot you can use the first number in the rule, 68%.
+    There is a 68% that any random sample will fall within plus or minus 1-sigma of the mean. This is a confidence interval of negative 1-sigma and positive 1-sigma around the mean.
+    And there is a 95% chance that a random sample will fall within 2 sigma of the mean.
+    This for a mean of 0 and a standard deviation of 1, this means you have a 95% chance of drawing a random sample between negative 2 and positive 2.
+    Likewise you have a 99.7% chance of a random sample falling within plus or minus 3-sigma of the mean.
     </aside>
+
+# 23: Accuracy
+
+continuous variable (regression)
+RMSE
+
+<aside class="notes">
+    In data science the statistic you'll hear about the most is probably accuracy.
+    For a continuous target variable, it's not possible to count of the number of test cases that your model predicted exactly correct.
+    Your model will almost never be precisely correct for a regression problem where it outputs a continuous decimal value.
+    That means you need to compute accuracy based on how close each prediction is to the true value of the target variable for that example rather than whether it is perfectly correct or not.
+
+    Fortunately you do not have to learn any new math to compute this average distance or average error.
+    Root mean square error or RMSE or remzee is the standard error formula for a continuous target variable.
+    This is the same formula you used to compute the standard deviation on the rolls of pairs of dice.
+
+    This is nice because you can use the normal distribution and the standard normal curve to compute a confidence interval around each of your predictions.
+    So let's say you computed the standard error on a test set of data in the weight prediction problem and you got a value of 2.5 pounds.
+    And let's say you use your model to predict the weight of someone coming into your clinic and it predicts a weight of 100 pounds.
+    You 2.5 pound standard error tells you that you have 68% confidence that they actually weigh 100 pounds plus or minus 2.5 pounds or between 97.5 and 102.5 pounds.
+    Similarly, for 2 sigma, or 2 standard deviations, you know that the patient weighs between 95 and 105 pounds with 95% confidence.
+    And the 68-95-100 rule tells you that you have 99.7% accuracy that the patient weighs betwen 92.5 and 107.5 pounds.
+
+    This approach to measuring the accuracy of a model has a lot of advantages.
+    It's the most common form of accuracy quoted in academic papers and medical equipment ification sheets.
+    </aside>
+
+# 24: Categorical Accuracy
+
+discrete variables (regression)
+RMSE
+
+<aside class="notes">
+    For discrete or categorical target variables the accuracy calculation is even easier.
+    For binary predictions like blue pill vs red pill, or 3-category predictions like malignant, benign, or healthy, we can just count up the number correct.
+    This is similar to how you would grade a test or quiz in school.
+    You divide the total correct by the total number of predictions that you made with the model.
+    This gives you a fractional number between 0 and 1 which we usually report in percent.
+    So if you gave a radiology model 10 x-ray images of cancerous and healthy tumors, and it correctly classified 8 of them, you would say that your model has an 80% accuracy.
+    </aside>
+
+# 25: Bayes Rule
+
+<aside class="notes">
+    Finally, my favorite rule in all of statistics, Bayes Rule.
+    I like to think of this as the second opinion rule.
+    For Baye's Rule, the second opinion is from a diagnostic test or machine learning predictive model, not necessarily a real doctor.
+    Bayes Rule tells you exactly what to do when you make predictions and you want to update your estimate of the target variable based on new information.
+
+    For example, Bayes Rule tells you the best way to interpret a new blood test result to combine it with previous blood tests and diagnoses.
+    Let's say you have a patient, and based on their demographics you think there is a 25% chance that your patient has type 1 diabetes, based on their age and demographics.
+    Then let's say you run blood test that has 80% accuracy on people with diabetes.
+    This is a little different from the radiology model in the previous slide because this is the true positive rate only on those people with the disease.
+    We call this precision rather than accuracy.
+    This 80% probability is called precision, because it is the accuracy only on a subset of the data, the patients that truly have the disease.
+    This is the probability of a positive test result T given the patient has the disease D.
+    In mathematical notation this is P of T given D.
+
+    Now, imagine your blood test comes back positive.
+    A positive result means that the blood test is indicating that your patient has type 1 diabetes.
+    But a blood test is not the final word.
+    As a Doctor or Data Scientist you can use Baye's rule to combine those two 3 probabilities together to create an estimate of the likelihood that the patient actually has diabetes.
+    Bayes rule says that the probability of disease D given a positive test result T is equal to the liklihood ratio times the original probability that they had disease before you had the blood test results.
+    This probability of disease that you knew prior to the blood test is called the prior probability.
+    In your case this is 25%.
+    Prior to the blood test you were 25% confident that the patient had diabetes.
+    The likelihood ratio is the probability that the test will indicate a positive result given that the patient has the disease divided by the probability of the test giving a positive result on a random person from the population with similar demographics to your patient.
+
+    For Bayes rule we need to divide this by the probability of the test returning a positive result, or P of T.
+    To get the likelihood ratio we need the probability of the test returning a positive result on all patients from our patient's demographic cohort (age, gender, height, and weight).
+    This is tricky to calculate, but we can estimate it from the weighted average of the precision of the blood test and the false positive rate.
+    False positive rate is the rate your blood test will sound the alarm by returning a positive result when the patient does not actually have the disease.
+    You can assume that the false positive rate for this particular test is 10% and that 25% of your patient's cohort have the disease.
+    So for this example the probability of T, the total positive rate of the test, as .25 times .8 plus .75 times .1 which gives .2 plus .075 or .275.
+    Your test has a 27.5% chance of returning a positive result on a random patient with your patient's demographics.
+    So your liklihood ratio is .8 divided by .275 which is 2.9.
+    Multiplying 2.9 by .25 again to get .727272 and so on, or about 73%.
+    Depending on the risks associated with your intervention, you may want to have your patient take another blood test to increase your confidence in the diagnosis.
+    So when you apply Bayes Rule, you will often get reduced likelihood of a disease if you account for the false positive rate of the test correctly.
+    And this can lead to better outcomes, particularly when interventions carry significant health risks, as they do for type 1 diabetes.
+
+    </aside>
+
 
 ### References
 
