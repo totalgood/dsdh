@@ -12,16 +12,18 @@
 - IA?
 
 <aside class="notes">
-    For most technologies it makes sense to learn the what before the why.
-    But the definition of AI is a bit vague and controversial.
-    So you'll build on your experience with machine learning in the previous lesson to help you see the why first.
-    Then you'll learn a few of the definitions of AI and deep learning.
+    The definition of AI is a bit vague and controversial.
+    So rather than confusing you with that controversy, you'll learn how to use AI first.
+    You'll build on your experience with machine learning in the previous lesson to help you see how deep learning is a big improvement in the state of the art.
+    This will help you develop your own definitions of AI and deep learning.
+    Just as you have your own definition of Intelligence, you'll have your own perspective on artificial intelligence or machine intelligence.
     That will help you see how you can use it to tackle some of the harder problems in healthcare data science.
 
-    You'll go back to the playground for a bit so you can see how it with a fresh perspective.
+    You'll go back to the playground for a bit so you can play with deep learning again.
     Now that you've experienced machine learning and you understand why deep learning is such a big deal, you'll appreciate some of the sublties of the playground a bit better.
     And then we'll dive into a real example dataset and problem statement that you can experiment with.
-    Just like the previous lesson, I'll walk you through an overview of a deep learning pipeline.
+    Just like the previous lesson, I'll walk you through an overview of a data science pipeline.
+    Only this time you'll use deep learning and compare it to conventional machine learning approaches.
     You'll teach a machine to listen through a stethescope to patients' hearts.
     This may touch a nerve if you're a doctor who prides herself on her stethescope skills.
 </aside>
@@ -30,32 +32,42 @@
 
 <aside class="notes">
     Last week you trained a diabetes prediciton model.
-    You used the scikit learn package in a jupyter notebook to fit a LinearRegression model to 10 columns of clinical patient data.
+    You used the SciKit-Learn package in a jupyter notebook to fit a LinearRegression model to 10 columns of clinical patient data.
+    You used features like patient age, sex, and BMI to predict diabetes severity.
     As you added more variables to the fit, the model got more and more accurate.
 
-    Above the data table in this chart you can see the mathematical equation you are fitting the data to.
+    Above the data table in this chart you can see the mathematical equation for a linear regression.
     Y is the target variable, the severity of disease.
-    It ranges between 0 and 300.
-    The best RMSE on the test set that you were able to achieve was probably about 55 on this severity score scale.
-    You can normalize this by the max minus the min of the severity range, or 300.
+    It ranges between 0 and 300 in your dataset.
+    The best RMSE (Root Mean Square Error) on the test set that you were able to achieve was probably about 55 on this severity score scale.
     55 divided by 300 is about 18% standard error.
     This isn't bad, but I'm sure your patients would like a bit more certainty in your diagnosis.
 
-    The feature variables in your model are things like blood pressure and glucose level from blood tests.
+    Look at the formula for linear regression.
+    A linear regression merely adds and subtract your features in a linear combination.
 
-    Looking at the formula for our linear regression, we are only adding and subtracting these features in a linear combination.
-    All it does when you multiple by a coefficient is create a weighted average of all our features.
-    And the intercept is just the average of all the target variable values in our dataset, the average severity of 150.
+
+    The first term in the formula is C_0, the intercept or the offset.
+    The intercept is just your average of all the target variable values in your dataset, the entire column of diabetes severity values.
+    The average severity in your diabetes dataset is 150, halfway between 0 and 300.
+    This is why your Linear Regression intercept was 150.
+
+    The rest of the fomula shows how you multiply each feature by a coefficient is create a weighted average of your features.
+    This weighted average is the prediction for that particular patient.
+    Your weights or slopes can be negative, but otherwise it's just like taking a weighted average of a row in your spreadsheet of data.
     </aside>
 
 # Linear Regression
 
 <aside class="notes">
-    You can see the python code for that linear regression formula here.
-    The scikit-learn implementation stores those coeficients in an object attribute name `coef_`.
-    So if you named your linear regression `lr` you can see the actual slopes of your lines along each dimension the .coef_ values.
-    They are in the same order as the data you passed into the fit method on the model.
-    For example the first slope, or `lr.coef_[0]` tells you the relationship between patient age and your severity prediction.
+    Here you can see the python code for the linear regression formula.
+    The scikit-learn implementation stores those coeficients in an object attribute named `coef_`.
+    So if you named your linear regression `lr` you can see the actual slopes of your lines along each dimension the `lr.coef_` array values.
+    There is one coef value for each feature.
+    Your features are arranged in the same order as the data you passed into the fit method on the model.
+
+    Take a look at first and seond coefficients, shown in red here within the python code snippet.
+    The first slope after the intercept, `lr.coef_[0]` , tells you the relationship between patient age and your severity prediction.
     And your `.intercept_` value is just added to this linear combination of all your feature values.
     </aside>
 
