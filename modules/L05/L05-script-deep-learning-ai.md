@@ -467,7 +467,7 @@ This is the associative property of addition.
     First, the error in the prediction for an example in the training set is computed at the bottom of this chart.
     The true value from the training set is subtracted from the predicted value.
     The coefficients in the layer above can be adjusted small amounts to see how this affects the error below.
-    And this gradient can be propagated back up the network to the next coefficient to measure it's affect on the error.
+    And this gradient can be propagated back up the network to the next coefficient to measure it's affect on the error below.
 
 </aside>
 
