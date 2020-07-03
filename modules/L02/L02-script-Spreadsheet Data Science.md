@@ -87,6 +87,36 @@ Killer feature: automatic filters
     You can quickly see how many different values are in a spreadsheet by applying an automatic filter or using the pull down menu in the heading of modern spreadsheets.
 </aside>
 
+# 4: CRISP-DS: CRoss Industry Standard Process for Data Science
+
+1. Data Understanding
+2. Data Preparation
+3. Modeling
+4. Evaluation
+5. Deployment
+6. Domain Understanding
+
+<aside>
+    When you talk about CRISP, what's the first thing that comes to mind?
+    Probably CRISPR, the gene editing technique developed by [Jennifer Doudna][Doudna].
+    Data Scientists, however, think of something different.
+
+    Two decades ago, Rüdiger Wirth and Jochen Hipp published a paper describing the 6-stage CRISP data mining process.
+    The CRISP data mining methodology has been taught in universities and corporate training programs ever since.
+    It even survived the terminology change as from data mining moved from industry into the laboratory and was rebranded as data science.
+    CRISP-DM is now the _de facto_ mental model for Data Science.
+    Technology has advanced much faster than this mental model.
+    With automatic machine learning tools like H20ai or even Scikit-Learn Pipelines, most of this process can be automated.
+    Two decades ago, Rüdiger Wirth and Jochen Hipp published a paper describing the 6-stage CRISP-DM data mining process.
+    It has been taught in universities and corporate training programs ever since even as emphasis evolved from data mining to data science.
+    It is now the de facto mental model for Data Science.
+    Technology has advanced much faster than this mental model.
+    With automatic machine learning tools like H20ai or even Scikit-Learn Pipelines, most of this process can be automated.
+
+    [Wirth]:
+    [Doudna]: https://en.wikipedia.org/wiki/Jennifer_Doudna "Jennifer Doudna"
+</aside>
+
 # 4: DIY Spreadsheet Data Science
 
 - Fitness: step counters, heart rate monitors

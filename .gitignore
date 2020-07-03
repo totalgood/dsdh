@@ -69,3 +69,7 @@ secret*
 private*
 pass*
 *kviatkovski*
+
+# drafts/unused
+draft-slides/*
+**/draft-slides/
