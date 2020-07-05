@@ -75,33 +75,19 @@ View **Lecture 5**: Deep Learning & Computer Vision
 **Discussion Board**:
     Which features were most helpful when creating a deep learning model on the deep learning playground? How many total neurons and layers did you need to achieve high accuracy on the spiral classification problem? If you used more features were you able to reduce the number of neurons required to fit to the spiral data well?
 
-### Winter
-
-**Reading**:
-    1. **Required**: "Artificial intelligence in healthcare: past, present and future" Jiang et al: (bit.ly/ucsd-ai-survey)[https://bit.ly/ucsd-ai-survey]
-    2. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action), Lane et al – Chapter 5 "Baby Steps with Neural Networks"
-
-### Summer
-
 **Reading**:
     1. **Required**:_Introduction to Healthcare Analytics_, Chapter 9: "The Future -- Healthcare and Emerging Technologies"
     2. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action), Lane et al – Chapter 5 "Baby Steps with Neural Networks"
     3. Suggested: "Artificial intelligence in healthcare: past, present and future" Jiang et al: (bit.ly/ucsd-ai-survey)[https://bit.ly/ucsd-ai-survey]
+    4. Suggested: View 8 minutes of [Thinking Tools, 56:44 to 1:04:00](https://www.youtube.com/watch?v=EJsD-3jtXz0&feature=youtu.be&t=3403) by Daniel Dennet
 
 # Lesson 6
 
 View **Lecture 6**: Natural Language Processing
 **Discussion**:
+    Ask TA Bot 5 questions about Data Science, Machine Learning, Python, or Digital Health: [ucsd.qary.me](http://ucsd.qary.me). Try to think of questions that a healthcare practitioner would have and questions that cannot be answered using a search engine like Duck Duck Go.
+**Quiz**:
     Describe some unstructured datasets you've seen that Natural Language Processing could help with.
-
-**Reading**:
-    1. **Required**:  Data Science for Healthcare: Methodologies and Applications – p. 147-165 "NLP with DL"
-    2. Suggested:  Data Science for Healthcare: Methodologies and Applications – p. 173-193 "Reminiscent Therapy..."
-    3. Suggested:  Data Science for Healthcare: Methodologies and Applications – p. 239-265 "...Persuasive Dialogs"
-    4. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 6 "Word Vectors"
-    5. Suggested: Biomedical Informatics, Shortliffe et al – Ch 8 "NLP"
-
-### Summer
 
 **Reading**:
     1. **Required**: [NLP & Healthcare: Understanding the Language of Medicine](https://medium.com/curai-tech/nlp-healthcare-understanding-the-language-of-medicine-e9917bbf49e7)
