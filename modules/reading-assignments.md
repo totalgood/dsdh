@@ -112,39 +112,33 @@ SR: Biomedical Informatics, Shortliffe et al – Ch 8 "NLP"
 
 View Lecture 7: Bioinformatics & Genomics
 
-### Winter
-
-RR: “Biopython tutorial”
-RR: “Contribution of GWAS...” by Mansiaux et al, 2012, bit.ly/ucsd-gwas
-SR: Intuition Pumps and Other Tools for Thinking by Daniel Dennet p. 185-217 (pumps 33-37 Tools about Evolution)
+**Reading & Viewing**:
+    1. Required: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 1: Introduction](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec2), [Chapter 2: Quick Start](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec7)
+    2. Suggested: View ["Introduction to Genetics and Genomics"](https://youtu.be/NT9hBuBAexg) by Chris Keown
+    2. Suggested: "Contribution of GWAS..." by Mansiaux et al, 2012, bit.ly/ucsd-gwas
+    3.  Intuition Pumps and Other Tools for Thinking by Daniel Dennet p. 185-217 (pumps 33-37 Tools about Evolution)
 
 # Lesson 8
 
 View Lecture 8: Assistive Technology, Ethics
 
-### Winter
-
-RR: The Book of Why: The New Science of Cause and Effect – Chapter 7 “Beyond Adjustment”
-RR:
-SR:
+**Reading**:
+    2. Suggested: The Book of Why: The New Science of Cause and Effect – Chapter 7 "Beyond Adjustment"
 
 # Lesson 9
 
 View Lecture 9: Healthcare Systems Modeling
-
-### Winter
-
 Exercise 9: Excess readmission rate modeling
-RR: Data Science for Healthcare: Methodologies and Applications – p. 347-365 “Leveraging Financial Analytics..”
-SR: “Modeling Organizational Deerminant of Hospital Mortality”, Al-Haider and Wan 1991, bit.ly/ucsd-hosp1991
-SR: Biomedical Informatics, Shortliffe et al – Ch 12 “EHR”
+
+**Reading**:
+    1. Suggested: Data Science for Healthcare: Methodologies and Applications – p. 347-365 "Leveraging Financial Analytics.."
+    2. Suggested: "Modeling Organizational Deerminant of Hospital Mortality", Al-Haider and Wan 1991, bit.ly/ucsd-hosp1991
+    3. Suggested: Biomedical Informatics, Shortliffe et al – Ch 12 "EHR"
 
 # Lesson 10
 
 View Lecture 10: Public Health & Epidemiology
 
-### Winter
-
-RR:  The Book of Why: The New Science of Cause and Effect – Chapter 5 “The Smoke-Filled Debate”
-RR:
-SR: Biomedical Informatics, Shortliffe – Ch 15 “Pub Health”
+**Reading**:
+    1. Suggested:  The Book of Why: The New Science of Cause and Effect – Chapter 5 "The Smoke-Filled Debate"
+    2. Suggested:  Biomedical Informatics, Shortliffe – Ch 15 "Pub Health"
