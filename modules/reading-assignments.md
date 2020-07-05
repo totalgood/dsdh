@@ -94,29 +94,30 @@ View **Lecture 6**: Natural Language Processing
 **Discussion**:
     Describe some unstructured datasets you've seen that Natural Language Processing could help with.
 
-### Winter
-
-RR:  Data Science for Healthcare: Methodologies and Applications – p. 147-165 "NLP with DL"
-RR:  Data Science for Healthcare: Methodologies and Applications – p. 173-193 "Reminiscent Therapy..."
-RR:  Data Science for Healthcare: Methodologies and Applications – p. 239-265 "...Persuasive Dialogs"
-SR: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 6 "Word Vectors"
-SR: Biomedical Informatics, Shortliffe et al – Ch 8 "NLP"
+**Reading**:
+    1. **Required**:  Data Science for Healthcare: Methodologies and Applications – p. 147-165 "NLP with DL"
+    2. Suggested:  Data Science for Healthcare: Methodologies and Applications – p. 173-193 "Reminiscent Therapy..."
+    3. Suggested:  Data Science for Healthcare: Methodologies and Applications – p. 239-265 "...Persuasive Dialogs"
+    4. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 6 "Word Vectors"
+    5. Suggested: Biomedical Informatics, Shortliffe et al – Ch 8 "NLP"
 
 ### Summer
 
 **Reading**:
     1. **Required**: [NLP & Healthcare: Understanding the Language of Medicine](https://medium.com/curai-tech/nlp-healthcare-understanding-the-language-of-medicine-e9917bbf49e7)
-    2. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 6 "Word Vectors"
+    2. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 7 "Getting words in order with convolutional neural networks (CNNs)"
+    3. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 8 "Loopy (recurrent) neural networks (RNNs)"
 
 # Lesson 7
 
 View Lecture 7: Bioinformatics & Genomics
 
 **Reading & Viewing**:
-    1. Required: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 1: Introduction](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec2), [Chapter 2: Quick Start](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec7)
-    2. Suggested: View ["Introduction to Genetics and Genomics"](https://youtu.be/NT9hBuBAexg) by Chris Keown
-    2. Suggested: "Contribution of GWAS..." by Mansiaux et al, 2012, bit.ly/ucsd-gwas
-    3.  Intuition Pumps and Other Tools for Thinking by Daniel Dennet p. 185-217 (pumps 33-37 Tools about Evolution)
+    1. Required: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 1: Introduction](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec2)
+    2. Required: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 2: Quick Start](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec7)
+    3. Suggested: View ["Introduction to Genetics and Genomics"](https://youtu.be/NT9hBuBAexg) by Chris Keown
+    4. _Intuition Pumps and Other Tools for Thinking_ by Daniel Dennet p. 185-217 (pumps 33-37 Tools about Evolution)
+    5. [en.wikipedia.org/wiki/Darwin's Dangerous Idea](https://en.wikipedia.org/wiki/Darwin%27s_Dangerous_Idea) by Daniel Dennet, summarized on Wikipedia
 
 # Lesson 8
 
