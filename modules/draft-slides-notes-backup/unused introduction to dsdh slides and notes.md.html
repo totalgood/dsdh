@@ -1,0 +1,87 @@
+<h1 id="data-analyst">Data Analyst</h1>
+<div class="notes">
+<p>If you’re a data analyst you might be exploring a database of health-care records and hospital outcomes data. You’ll be looking for trends and patterns that can help your hospital or insurer operate more efficiently. You’re looking for “business-actionable intelligence.” Often you’ll have a business or healthcare background and you’ll rely a lot on your hunches and intuition and domain knowledge. You’ll be health care’s version of a Quant (Quantitative Analyst). You’ll be looking for health-care arbitrage and “alpha” opportunities.</p>
+</div>
+<h1 id="statistician">Statistician</h1>
+<div class="notes">
+<p>If you’re a statistician you’ll bring to bear your experience with probabilities and proportions and statistics. You’ll show your colleagues where their intuitions are wrong. You’ll use Bayes Rule to refute the prevailing wisdom of performing mastectomy’s based solely on mamograms. And you’ll probably know before anyone else that mamograms are a bad idea. You’ll see the world like the Freakonomics authors (Steven Levitt and Stephen Dubner). You’ll help tobacco companies defend their products or you’ll help the FDA and the surgeon general find flaws in their logic. And if you’re able to put aside your pre-1980’s training you’ll probably be onboard with the Causal Revolution. You’ll be able to produce causal models</p>
+</div>
+<h3 id="data-scientist">Data Scientist</h3>
+<div class="notes">
+<p>Data science is about applying the scientific method to data. The scientific method is about testing hypotheses. These hypotheses are about new situations, new data that we haven’t seen yet. So Data Science allows us to make predictions about new data based on data that we have. This isn’t necessarily about predictions in the future. Most of the time it means simply predicting one numerical fact, called the target, based on a bunch of other numerical facts, called features, predictors, or indicators.</p>
+<p>If you’re a Data Scientist, particularly in the health-care industry, you’re very likely going to be involved in research. You’re going to be testing hypotheses by looking at data. And you’ll use those tests to recommend trials, and A/B testing to back up your claims. And you’ll invariably be disappointed that the “lift” you predicted didn’t pan out once you implement your hypothesis in the real world (unintended consequences).</p>
+</div>
+<h3 id="machine-learning-engineer">Machine Learning Engineer</h3>
+<p>If you’re a Machine Learning Engineer, you’re likely to be writing software to test hundreds of hypotheses. And you won’t care much about things like confounding variables, causality, or bias. Like an engineer building anything else, you are just going to be interested in if the model works. You’re not going to care why. More importantly, your boss and customers aren’t going to care why. They just want a drug or diet or treatment recommendation.</p>
+<h1 id="whats-different">What’s different?</h1>
+<ul>
+<li>more data</li>
+<li>new algorithms</li>
+<li>faster computers</li>
+</ul>
+<div class="notes">
+<p>Moore’s law and the Internet have produced a virtuous cycle of exponential growth in data, computational power, and medical technology.</p>
+</div>
+<h1 id="virtuous-cycle">Virtuous cycle</h1>
+<p>diagram of arrows of computer tech feeding back into medical tech and spinoff technologies radiating out from that virtuous cycle</p>
+<h2 id="technology---science">technology &lt;-&gt; science</h2>
+<ul>
+<li>neuroscience -&gt; deep learning -&gt; lstm, attention</li>
+<li>gene sequencing -&gt; encoder/decoder -&gt; NLP -&gt; human genome -&gt; 23andme (genetics)</li>
+<li>2D gene sequencing -&gt; topology, deep learning -&gt; 3D gene sequencing</li>
+<li>MRI -&gt; optical cortex neuroscience -&gt; computer vision architectures -&gt; FMRI</li>
+<li>psychometrics -&gt; goal-based reasoning</li>
+<li>psychology/philosophy -&gt; fuzzy logic -&gt; bayesean networks -&gt; causal diagrams</li>
+<li>BMI -&gt; steven hawking -&gt; physics and math -&gt; better BMI</li>
+<li>wikipedia, pub med -&gt; more educated patients and doctors -&gt; self-help medicine</li>
+<li>embedded processes -&gt; insulin pumps and pace makers -&gt; more data -&gt; treatments for computer scientists</li>
+</ul>
+<div class="notes">
+<p>Faster and faster computers have enabled computer scientists, physicicists, chemists, and biologists to test and experiment with more and more efficient models and algorithms for biological systems. And those algorithms have helped scientists generate and record more and more data about biology. And surprisingly, that data about human biology has spawned new biomimicing algorithms that are better than engineered algorithms for solving many computer science problems. For example, as we learn more and more about the human brain and neurobiology we are able to apply more and more of that architecture insight into thinking machines, like artificial neural networks. It’s that one advancement, often called deep learning that has and advance medical technology which have in turned generated more data and life-saving technologies to motivate additional investment and growth in technology.</p>
+</div>
+<h1 id="gene-sequencing">Gene Sequencing</h1>
+<div class="notes">
+<p>The sequencing of the human genome, containing 3B base would not have been possible if it weren’t for fast comptures with vast storage. 23andme, fitbit spawned a citizen science and self-service medicine trend (quantified self)</p>
+</div>
+<h1 id="what-is-a-data-scientist">What is a data scientist</h1>
+<ul>
+<li>A statistician that can program</li>
+<li>A computer programmer than understand statistics</li>
+<li>A statstician that lives in Silicon Valley</li>
+</ul>
+<div class="notes">
+<p>So you want to be a data scientist so you can help save lives?</p>
+</div>
+<h1 id="digital-health-data-science">Digital Health Data Science</h1>
+<ul>
+<li>Individual Clinical Health Care</li>
+<li>Occupational Health and Safety</li>
+<li>Population Health</li>
+</ul>
+<div class="notes">
+<p>Clin health – individual patient diagnosis and treatment Occ health – monitoring and design of the workplace for worker health and safety Pop health or Epi – Epidemiology and spatio-temporal data modeling</p>
+</div>
+<h1 id="spatiotemporal-data">Spatiotemporal data</h1>
+<p>Epidemology data often has</p>
+<ul>
+<li>a place (location in space)</li>
+<li>time (when the data was observed)</li>
+</ul>
+<p>This adds 3 dimensions (latitude, longitude, time) to data that is already probably high dimensional. For most predictive models these discretized locations and and times often become additional dimensions. Predictive models must deal with extremely high dimensional features.</p>
+<p>note{</p>
+<p>Epidemiology and populaiton health data is usually recorded over time and the geographic information is critical to the model. A GIS system is often used to store and visualize spatiotemporal data. Layers are added/modified over time to show the evolving geography of a phenomenon. The end result is a “spy satellite” movie. The past history of all the events nearby are all relevant feature for the prediction of what is about to happen at a particular location at a particular time.</p>
+<p>:::</p>
+<h1 id="epidemiology">Epidemiology</h1>
+<p>Simulations are a special kind of data science modeling, typically used to forecast spatiotemporal data. A python exercise in simulation of an epidemic.</p>
+<p>MIT Intro to Computational Thinking <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/assignments/PS4.zip">Problem Set 4: Simulating the Spread of Disease and Bacteria Population (ZIP)</a></p>
+<h1 id="spurious-correlation">Spurious Correlation</h1>
+<p><img src="../media/spurious-correlation-tyler-vygen-bedsheet-tangling-deaths.svg" alt="Cheesy Bedsheet Tanglings" /> <a href="http://tylervigen.com/spurious-correlations">tyler vigen</a></p>
+<h1 id="confounding">Confounding</h1>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4017459/">NIH guidelines</a></p>
+<div class="notes">
+<p>The debate around smoking wasn’t entirely the fault of big tobacco lobbying groups. Many doctors and statisticians believed their own statistical analyses that show At the very end of this long discussion of all the techniques that have been used in the past, and how they are all flawed in one way or another, it finally mentions at the very end that a multivariate model designed with domain knowledge and a causal model are the only way to be sure.</p>
+</div>
+<h1 id="causal-revolution">Causal Revolution</h1>
+<div class="notes">
+<p>Sometimes prediction is not enough. To cure diseases, to save lives, you need a causal model.</p>
+</div>

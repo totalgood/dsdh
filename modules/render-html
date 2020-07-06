@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+pathname='.'
+if [ -n "$1" ] ; then
+    pathname="$1"
+fi
+find $pathname -iname \*.md -type f -exec pandoc -o {}.html {} \;

@@ -1,0 +1,51 @@
+<h1 id="assignment-spreadsheet-linear-modeling">1: Assignment: Spreadsheet Linear Modeling</h1>
+<h1 id="dataset-spreadsheet-bit.lyucsd-spreadsheet">2: Dataset Spreadsheet: bit.ly/ucsd-spreadsheet</h1>
+<figure>
+<img src="media/assignment-github-spreadsheet-download.png" alt="" /><figcaption>Image of totalgood/dsdh raw/download buttons</figcaption>
+</figure>
+<aside class="notes">
+Visit the bit.ly url in red to retrieve the Libre Office Open Calc spreadsheet which contains the data for this assignment. You can also find it on github within the totalgood organization at the <code>dsdh</code> repository and the <code>data/</code> directory. DSDH stands for datascience for digital health. If you do not have Libre Office you can download it for free and install it to run this spreadsheet directly. Alternatively you can upload it to Google Sheets, which is also free. If you have a Microsoft Office or Office 360 license on your machine you may be able to import it into Excel.
+</aside>
+<h1 id="dataset-columns">Dataset Columns</h1>
+<p>A: Patient ID (integer, but not usable, unique for each) B: Gender (“Male’/”Female”), text feature C: Height (in), continuous numerical feature D: Weight (lbs), continuous numerical target (regression)</p>
+<aside class="notes">
+A: The first column is not usable for modeling because it is unique and has no relationship with the target variable (weight). B: Gender is provided as a text field but you will create a binary 0/1 integer field when you use it for the multivariate linear regression. C: Height is the main feature for this model because it contains the strongest relationship to our target variable, weight. D: Weight is your target variable. Because it is a continuous numerical variable, this problem is called a regression problem.
+</aside>
+<h1 id="assignment-goals">4 Assignment Goals</h1>
+<p>Descriptive Statistics: Min, Max, Mean, Standard Deviation Scatter Plot Linear Regression (by manual trial and error) Multivariate Linear Regression</p>
+<aside class="notes">
+<p>In this assignment you will first compute some descriptive statistics to get to know your data. You will then plot a scatter plot.</p>
+Templates for each of these objectives are provided in tabs with appropriate labels.
+</aside>
+<h1 id="example-descriptive-statistics-and-scatter-plot">5: Example Descriptive Statistics and Scatter Plot</h1>
+<aside class="notes">
+<p>A template for your statistics and plots is provided in the tab titled “gender-height-weight-viz”.</p>
+<p>Examples descriptive statistics for your dataset are shown here, but you’ll need to calculate them yourself using built in formulas in your spreadsheet program.</p>
+<p>For the scatter plot, make sure you label your axes. Because weight is your target or dependent variable you should plot it on the vertical Y axis. Height is one of your independent or feature variables so you should plot it on the horizontal X axis. You may also examine your plot to estimate the slope of the relationship between height and weight. This will help you “fit” the linear regression model more quickly.</p>
+A histogram is also provided for your reference. You may want to increase the number of bins from 3 to 10 in order to get a feel for the difference in the distribution of weight values for Male and Female patients.
+</aside>
+<h1 id="example-linear-regression">6: Example Linear Regression</h1>
+<aside class="notes">
+<p>A template for your linear regression model is provided in the tab titled “height-weight-regression”.</p>
+<p>The values in green are for you to adjust using trial and error and your intuition.</p>
+<p>The linear formula for the line has already been implemented for you in column D. The error calculations and total MSE (mean square error) has also already been calculated for you. You only need to guess at slope and intercept values that can improve the model fit by reducing the MSE value.</p>
+One guessing procedure that works well is to adjust the slope value (cell J3). This will make the total error in cell E3 go up or down. You can then compensate for this total error by subtracting this value from your intercept parameter in cell I3. It’s possible to bring the average exactly to zero. This is the bias of your model or how your pattern of predictions is centered around the true values. However your MSE will change as well. If it gets worse (goes up), then you’ll want to go in the other direction with the slope (the value in cell J3) for your next guess. With each pair of guesses for the slope and intercept manually record your results as a row in the table directly below starting at I6. This will help you see patterns in your answers and help you refine your solution. You may be able to get below 145 RMSE.
+</aside>
+<h1 id="template-for-regression">6: Template for Regression</h1>
+<aside class="notes">
+<p>You will delete the green boxes with some of the instructions mentioned here. They are just to reminders.</p>
+</aside>
+<h1 id="example-multivariate-regression">7: Example Multivariate Regression</h1>
+<aside class="notes">
+The multivariate regression tab adds two more columns to your table to allow you to incoporate gender into your linear formula to predict weight. You will now have slopes for both height and gender. But you will need to convert the gender text feature to a numerical binary feature to use it within a data science model.
+</aside>
+<h1 id="example-for-multivariate-regression">8: Example for Multivariate Regression</h1>
+<aside class="notes">
+The multivariate regression tab adds two more columns to your table to allow you to incoporate gender into your linear formula to predict weight. You will now have slopes for both height and gender. But you will need to convert the gender text feature to a numerical binary feature to use it within a data science model.
+</aside>
+<h1 id="template-for-multivariate-regression">9: Template for Multivariate Regression</h1>
+<aside class="notes">
+<p>The green boxes show you where you need to change the values or formulas to get the multivariate regression working. For the multivariate linear regression you will first want to create a binary variable for the Gender. You will have a value of 1 for Female and 0 for Male. You will copy this formula (IF statement) into all of the rows within this column so that you can use this as a new feature in your linear regression model.</p>
+<p>After this you will add a third term to the existing linear regression model terms for the height slope and the intercept. This will be the slope for your IsFemale variable.</p>
+Once you’ve copied this new prediction formula into the entire prediciton cell, you can then begin guessing at parameters for your model, like the slope for the IsFemale feature. Because there are not 3 parameters to balance, you challenge will be much more difficult. But it should be able to improve upon the RMSE you achieved in the previous tab for the single-variate linear regression.
+</aside>

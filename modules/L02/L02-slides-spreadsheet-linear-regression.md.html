@@ -1,0 +1,85 @@
+<h1 id="spreadsheet-linear-regression">Spreadsheet Linear Regression</h1>
+<ul>
+<li>Training Data: Gender, Height, Weight</li>
+<li>Target: Weight</li>
+</ul>
+<h1 id="application">Application</h1>
+<ul>
+<li>Carnival game</li>
+<li>Clinic data-cleaning</li>
+<li>Diagnosis (BMI)</li>
+</ul>
+<h1 id="load-data">Load data</h1>
+<ol type="1">
+<li>Download data:
+<ul>
+<li>totalgood.org/midata/ucsd/height-weight-gender.csv</li>
+</ul></li>
+<li>Upload data to Google sheet:
+<ul>
+<li>File menu heading -&gt; Import -&gt; Upload tab heading -&gt; Select a file …</li>
+</ul></li>
+</ol>
+<h1 id="descriptive-statistics">Descriptive Statistics</h1>
+<ol type="1">
+<li>Select the “Height” column</li>
+<li>Calculate the mean height (AVERAGE)</li>
+</ol>
+<p>sheets_reg_02</p>
+<ol start="2" type="1">
+<li>To graph the data, we first need to select it in the spreadsheet. Left mouse click in cell A1. While holding the mouse button down, drag the cursor to cell B6.</li>
+</ol>
+<p>sheets_reg_03</p>
+<p>The data and labels at the top of the column should be highlighted.</p>
+<ol start="3" type="1">
+<li>From the Insert menu at the top of the window, select Chart.</li>
+</ol>
+<p>sheets_reg_04</p>
+<ol start="4" type="1">
+<li>A window will appear that allows you to create a variety of different types of graphs including scatter plots.</li>
+</ol>
+<p>sheets_reg_05</p>
+<p>This window indicates where the data is located (A1:B6:) and indicates that the first rows contains headers or labels. There are several recommended chart, but none of them are scatter plots. To find a scatter plot, select Charts in the upper left corner of the window.</p>
+<ol start="5" type="1">
+<li>Select Scatter from the column of chart types on the left side of the window.</li>
+</ol>
+<p>sheets_reg_06</p>
+<ol start="6" type="1">
+<li>In the next column, choose the scatter plot at the top.</li>
+</ol>
+<p>sheets_reg_07</p>
+<p>Now the preview on the right side of the window show a scatter plot.</p>
+<ol start="7" type="1">
+<li>To change the chart titles and axes labels, select Customize.</li>
+</ol>
+<p>sheets_reg_08</p>
+<p>Under Chart Title, you should put a name that describes your chart. You can also change the color and size of the chart title font.</p>
+<ol start="8" type="1">
+<li>Use the scroll bar in the middle of the window to move farther through the chart options. Look for Axis Horizontal.</li>
+</ol>
+<p>sheets_reg_09</p>
+<p>Give the horizontal axis an appropriate label under Title. You can also change the minimum and maximum extent of the graph by entering values into Min and Max.</p>
+<ol start="9" type="1">
+<li>Once you have given the horizontal axis a title, use the box next to Axis to choose Left Vertical.</li>
+</ol>
+<p>sheets_reg_10</p>
+<p>Give the vertical axis an appropriate label under Title. Like the horizontal axis, you can change the vertical extent of the axis using Min and Max.</p>
+<ol start="10" type="1">
+<li>You may also add a trendline to the scatter plot. To do this, scroll farther down in the Customize window. Under the area labeled Series, look for Trendline. Selecting the box to the right give you several choices of regression for the data.</li>
+</ol>
+<p>sheets_reg_13</p>
+<p>For example, select Linear to find the line of best fit. If you choose Use Equation for the Label and Show R2, the legend on the graph will show the equation as well as the coefficient of determination.</p>
+<p>sheets_reg_11</p>
+<p>Select Insert to place the scatter plot in the sheet.</p>
+<p>sheets_reg_01</p>
+<ol start="11" type="1">
+<li>The equation in the legend may not include enough decimal places. If this is the case for a linear trend, the SLOPE and INTERCEPT commands may be used to calculate the slope and intercept of the trend. For this data, we would write</li>
+</ol>
+<p>=SLOPE(B2:B6,A2:A6)</p>
+<p>or</p>
+<p>=INTERCEPT(B2:B6,A2:A6)</p>
+<p>in a cell. Note that each of the functions require the range of the dependent variable to be listed first (B2:B6)and the range of the independent variable second (A2:A6).</p>
+<ol start="12" type="1">
+<li>If you need an output on the trend, the command FORECAST may be used. For instance, to find the y value on the linear trend at x = 130, we would type</li>
+</ol>
+<p>=FORECAST(130,B2:B6,A2:A6)</p>

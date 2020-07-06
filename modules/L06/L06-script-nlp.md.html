@@ -1,0 +1,127 @@
+<h1 id="l6-natural-language-processing">1: L6: Natural Language Processing</h1>
+<p>Hobson Lane, UC San Diego Instructor</p>
+<h1 id="two-questions">2: Two Questions</h1>
+<p>What is Natural Language Processing?</p>
+<p>How can NLP be used in Healthcare?</p>
+<h1 id="agenda">3: Agenda</h1>
+<p>“each word’s meaning” -&gt; <code>{  'each': 1, 'word': 2, "'s": 3, 'meaning': 4 }</code> “What is Coronavirus?” -&gt; <code>"COVID-19 is an infectious disease caused ..."</code></p>
+<p>Natural language Analyze text Represent text as numbers Meaningful representations Word vectors Applications Semantic search Summarization Conversational AI Therapy First Aid</p>
+<aside class="notes">
+<p>The goal of Natural Language Processing to compile natural langauge text into a numerical representation that captures its meaning. To do this we need to break text into chunks that are meaningful so taht we can give them a numerical representation. So the first thing you’ll learn is what those chunks of meaning are. Then you’ll learn some meaningful numerical representations of those chunks. One of the most popular and useful representations is called a word vector. You’ll see some example uses for these word vectors and some of the challenges and the majic of these high dimensional word vectors.</p>
+<p>Then you will see how to use vector representations of natural language text for machine leanring and semantic search. You may have heard of IBM Watson being used for medical diagnosis support. You will learn about this cognitive search application of natural language processing.</p>
+<p>Finally you will learn about conversational AI or chatbots and how they are used in healthcare. Conversational AI is particularly useful in underdeveloped healthcare systems such as in India, South America, and Africa.</p>
+</aside>
+<h1 id="what-is-nlp">4: What is NLP</h1>
+<ol type="1">
+<li>Psychology: human (animal) language understanding</li>
+<li>Linguistics: natural language structure</li>
+<li>Math: formal grammars for processing natural language</li>
+<li>Engineering: computer systems that <em>understand</em> NL input and/or generate NL output
+<ul>
+<li>Understanding (NLU)</li>
+<li>Generation (NLG)</li>
+</ul></li>
+</ol>
+<aside class="notes">
+<p>If you study the psychological processes involved when you read or write or speak natural language, then your courses and graduate studies will likely be in the Psychology or Neuroscience department.</p>
+<p>If you study linguistics, most of your courses will be in the English department, or whatever your native language is.</p>
+<p>If you study the engineering of NLP systems most of your classes will be in a computer science department and you will think of your job as kind of like building compilers for natural language.</p>
+<p>If you study the grammars that are useful of NLP your classes will be in the mathematics department and you will think of your job as designing formal logic grammars and using those to generate formal logical proofs of theorems in natural language.</p>
+<p>You will learn about all of these perspectives on NLP in this lecture. But you will concentrate most of your effort on the engineering of NLP systems. In my opinion, if you can build an NLP system, you will have a far deeper understanding of the psychology and This is the most practical and aproachable aspect of NLP. You will soon learn how to build a “recipe” of computer instructions (python code) to read, understand, and generate natural language text. Hopefully I will be able to infect you with my fascination for the magic of machines that can interact with us in our own language so well that we can hardly tell they are not human. It’s scary and inspiring at the same time.</p>
+</aside>
+<p><a href="https://dash.harvard.edu/bitstream/handle/1/17017334/finlp.pdf">Foundational Issues in Natural Language Processing: Introduction</a>, Sells, Peter, Stuart M. Shieber, and Thomas Wasow. 1991. (c) MIT Press.</p>
+<h1 id="natural-language">Natural Language</h1>
+<p>“Los computadores comprende Francaise ausi” -&gt; french2english NLP -&gt; “Computers understand French as well.”</p>
+<aside class="notes">
+building machines that could understand french text and generate equivalent English statements is one of the most important problems in NLP that brought
+</aside>
+<h1 id="processing">Processing</h1>
+<p>“Google stinks!” # use vader and get 2-d score “What is NLP” # use word2vec and get 4x3 score</p>
+<h1 id="pieces-of-meaning">Pieces of Meaning</h1>
+<p>“Each word’s meaning is unique.” Character-grams: 1-gram `‘E’, ‘a’ , ‘c’,h, , Token: word or word combination Word Sentence piece, n-gram Phrase, sentence or document</p>
+<h1 id="onc">ONC</h1>
+<p>Office of the National Coordinator for Health IT (ONC)</p>
+<h3 id="resources">Resources</h3>
+<p><a href="https://www.healthit.gov/buzz-blog/electronic-health-and-medical-records/international-health-standards-closer-onc-efforts">Open Standards for Certifying EHR Systems</a> ucsd-digital-health-data-science-L8-nlp-slides</p>
+<h1 id="what-is-nlp-1">1: What is NLP</h1>
+<ol type="1">
+<li>Psychology: human (animal) language understanding</li>
+<li>Linguistics: natural language structure</li>
+<li>Math: formal grammars for processing natural language</li>
+<li>Engineering: computer systems that <em>understand</em> NL input and/or generate NL output
+<ul>
+<li>Understanding (NLU)</li>
+<li>Generation (NLG)</li>
+</ul></li>
+</ol>
+<div class="notes">
+<p>If you study the psychological processes involved when you read or write or speak natural language, then your courses and graduate studies will likely be in the Psychology or Neuroscience department.</p>
+<p>If you study linguistics, most of your courses will be in the English department, or whatever your native language is.</p>
+<p>If you study the engineering of NLP systems most of your classes will be in a computer science department and you will think of your job as kind of like building compilers for natural language.</p>
+<p>If you study the grammars that are useful of NLP your classes will be in the mathematics department and you will think of your job as designing formal logic grammars and using those to generate formal logical proofs of theorems in natural language.</p>
+<p>You will learn about all of these perspectives on NLP in this lecture. But you will concentrate most of your effort on the engineering of NLP systems. In my opinion, if you can build an NLP system, you will have a far deeper understanding of the psychology and This is the most practical and aproachable aspect of NLP. You will soon learn how to build a “recipe” of computer instructions (python code) to read, understand, and generate natural language text. Hopefully I will be able to infect you with my fascination for the magic of machines that can interact with us in our own language so well that we can hardly tell they are not human. It’s scary and inspiring at the same time.</p>
+</div>
+<p><a href="https://dash.harvard.edu/bitstream/handle/1/17017334/finlp.pdf">Foundational Issues in Natural Language Processing: Introduction</a>, Sells, Peter, Stuart M. Shieber, and Thomas Wasow. 1991. (c) MIT Press.</p>
+<h1 id="magical-valley-of-nlp">2: Magical Valley of NLP</h1>
+<figure>
+<img src="media/uncanny_valley.png" alt="" /><figcaption>Mashiro Mori’s Uncanny Valley diagram. This shows user satisfaction with humanoid robotics technology on teh vertical axis. The horizontal axis shows the advancement of technology and time. More advanced technologies are shown on the right of the plot. As technology advances from left to right there is a gradual increase in satisfaction with technology until it reaches the lip of the uncanny valley and user satisfaction drops while anxiety increases, due to the creepiness of some advanced robotic systems. to the right of this dip, customer satisfaction climbs again as technology advances and we forget that the machine is not a human.</figcaption>
+</figure>
+<div class="notes">
+<p>Diagram alt text: …</p>
+<p>Let’s explore deep into the uncanny valley together.</p>
+<p>The diagram here was sketched by Mashiro Mori in 1970, just as personal computers were being developed and systems like conversational AI programs like ELIZA were becoming popular.</p>
+<p>Systems that look like a human body, but don’t act like them probably trigger an emotional response similar to what you experience when you see a dead body (corpse) or see a zombie movie. We have probably evolved to detect the subtle behavioral cues of sickness or mental illness. This same discomfort with humanoid robots can also sometimes be triggered by chatbots, estpecially if the bot is given a voice that sounds relatively human. See if you can sense your own creepiness as you have a conversation with Alexa or Google Assistant. Those engineers have worked very hard to ensure that you don’t get creeped out. This isn’t the creepiness you feel when it seems like the bot anticipates your actions before you even know you are going to do something. This is the creepiness of hearing some subtle cues in the voice that is unnatural, while at the same time imagining that it is a human mind at work.</p>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/Uncanny_valley#/media/File:Mori_Uncanny_Valley.svg">Uncanny Valley</a> <a href="https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)">Mashiro Mori</a></p>
+<h1 id="language-model">4: Language Model</h1>
+<p>Your blood pressure is too ______ .</p>
+<p>How old are ________ ?</p>
+<p>Does it hurt when you ________ ?</p>
+<p>Do you have a family history of ________ ?</p>
+<p>Dr. ________ told me the diagnosis .</p>
+<p>Patient LDL level is 100, ________ level is 50, and the total is .</p>
+<p>Dr. Smith gave me ________ best estimate .</p>
+<h1 id="your-blood-pressure-is-too">5: Your blood pressure is too</h1>
+<p>P=0.65 high</p>
+<p>P=0.30 low</p>
+<p>P=0.05 erratic</p>
+<div class="notes">
+<p>Your</p>
+</div>
+<h1 id="how-old-are">6: How old are</h1>
+<p>P=0.95 you</p>
+<p>P=0.03 they</p>
+<p>P=0.01 y’all</p>
+<p>P=0.01 yous</p>
+<h1 id="does-it-hurt">7: Does it hurt</h1>
+<p>How old are you? P=0.95</p>
+<p>How old are they? P=0.03</p>
+<p>How old are y’all? P=0.01</p>
+<p>How old are yous? P=0.01</p>
+<p>Do you have a family history of ________ ?</p>
+<p>Dr. ________ told me the diagnosis .</p>
+<p>Patient LDL level is 100, ________ level is 50, and the total is .</p>
+<p>Dr. Smith gave me ________ best estimate .</p>
+<h1 id="monty-hall-fallacy">3: Monty Hall Fallacy</h1>
+<p>Real life applications:</p>
+<ul>
+<li>you suspect a patient has one of 3 genes that could cause a disease and you plan to treat based on that one genetic abnormality, then another doctor does a test that confirms the patient does not have one of the others. Should you change your treatment? (must assume that only 1 Gene is present otherwise the abnormality would be greater and the cause obvious, like XOR condition).</li>
+<li>collider on the door chosen to be opened by Monty Hall</li>
+</ul>
+<h1 id="explain-away-fallacy">4: Explain Away Fallacy</h1>
+<ul>
+<li>collider where one cause negates the other</li>
+<li>two possible causes of test results then find out that one cause is present, that makes it less likely that the other cause is present</li>
+</ul>
+<h1 id="berksons-paradox">5: Berkson’s Paradox</h1>
+<ul>
+<li><p>2 diseases required for admission to hospital (admission’s bias) causing <code>bone disease</code> and <code>resperatory disease</code> to be correlated</p>
+<pre><code>             , general populaiton, general populaiton, general populaiton, hospitalized</code></pre>
+<p>resperatory disease, bone disease yes, bone disease no, % bone disease,</p></li>
+</ul>
+<h1 id="before-cause-there-was-corroboration">6: Before Cause there was Corroboration</h1>
+<ul>
+<li>strength of correlation</li>
+<li>agreement with physics</li>
+<li></li>
+</ul>

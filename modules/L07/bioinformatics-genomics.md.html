@@ -1,0 +1,110 @@
+<h1 id="bioinformatics-spectrumm">Bioinformatics Spectrumm</h1>
+<ul>
+<li>Informatics (Data Science, Statistics, Computer Science)</li>
+<li>Bioinformatics</li>
+<li>Computational Biology</li>
+<li>Biology</li>
+<li>Systems Biology</li>
+<li>Synthetic Biology</li>
+<li>Neuroscience</li>
+<li>AI</li>
+</ul>
+<h1 id="bioinformatics">Bioinformatics</h1>
+<ul>
+<li>Carl Woese</li>
+<li>Margaret Dayhoff</li>
+</ul>
+<div class="notes">
+<p>In the 1970’s Margaret Dayhoff pioneered the study of protein sequences, how they evolve, and scoring proteins for similarity by measuring their edit distance. She was the first to use PAM substitution matrices to compare protein sequences. Carl Woes pioneered the study of molecular sequences for explaining phenotype and organism evolution with concepts such as classifying life according to its molecular signature, molecular clocks, inferring phylogeny from ribosomal RNA, and discovered 3rd domain of life, archaea. The other 2 domains are bacteria and eukarya.</p>
+</div>
+<h1 id="life">Life</h1>
+<ul>
+<li>Eukaryotes (Eukarya)</li>
+<li>Archaea</li>
+<li>Bacteria</li>
+<li>Viruses?</li>
+</ul>
+<div class="notes">
+<p>Eukaryotes have cell walls and organels within cells. Viruses are not considered to be alive because they do not have a metabolic system to store and consume energy and cannot replicate on their own without a host organism. Pandoviruses are so large they can be seen with a normal light microscope and many contain much more DNA than bacteria. So size and complexity is not the dividing line between viruses and life.</p>
+</div>
+<h1 id="tree-of-life">Tree of Life</h1>
+<figure>
+<img src="media/phylogenetic-tree-of-life.svg.png" alt="" /><figcaption>Phylogenic Tree of Life based on RNA with 3 broad branches</figcaption>
+</figure>
+<div class="notes">
+<p>Phylogenic tree of life based on RNA sequence similarity.</p>
+</div>
+<h1 id="genomics">Genomics</h1>
+<h2 id="what-is-genomics">What is Genomics?</h2>
+<div class="notes">
+
+</div>
+<h1 id="genomics-data">Genomics Data</h1>
+<ul>
+<li>3B+ base pairs</li>
+<li>information-dense (low repetition)</li>
+</ul>
+<div class="notes">
+<p>The sequencing of the human genome, containing 3B+ basepairs would not have been possible if it weren’t for fast comptures with vast storage. 23andme, fitbit spawned a citizen science and self-service medicine trend (quantified self)</p>
+</div>
+<h1 id="gwas-genome-wide-association-studies">GWAS (Genome Wide Association Studies)</h1>
+<ul>
+<li>Correlation between genetic variations and human diseases</li>
+<li>80% of the variants reported by GWAS are in noncoding regions</li>
+<li>mechanism for noncoding genes to cause disease is unknown</li>
+</ul>
+<div class="notes">
+<p>Genome Wide Association studies sequence the genome of people suffering from disease. Their genome is added to a database and annotated with that disease. After a statistically significant sample set is obtained for a particular disease it’s possible to detect genetice variations that another example of the correlation vs causation challeng of Data Science.</p>
+</div>
+<h1 id="fda-approved-gene-therapies">FDA-Approved Gene Therapies</h1>
+<ul>
+<li>Congenital Retinal Blindness</li>
+<li>Spinal Muscular Atrophy</li>
+</ul>
+<div class="Notes">
+<p>Not only can the genomics detect the cause of disease, it can sometimes be used to cure the disease. In 2018 the FDA approved Luxturna an AAV virus to deliver a gene that is missing in patients suffering from an inherited eye disease. This treatment is restoring “functional vision” to the blind. In 2019 the FDA approved AAV gene therapy, a 2.1 M, single-dose treatment for Spinal Muscular Atrophy (SMA). Within 5 years there will be 20 therapies approved every year. And the pace is accelerating. The more precise editing possibilities of CRISPR are expected to come online in 2030.</p>
+</div>
+<h1 id="gff-format">GFF Format</h1>
+<h2 id="gff-general-feature-format">GFF: <a href="https://en.wikipedia.org/wiki/General_feature_format">General feature format</a></h2>
+<ol type="1">
+<li><strong>sequence</strong>: name of the sequence where the feature is located</li>
+<li><strong>source</strong>: source of the feature like “Augustus”, “RepeatMasker”, “TAIR”</li>
+<li><strong>feature</strong>: feature type name, like “gene” or “exon”</li>
+<li><strong>start</strong>: Genomic start of the feature, in 1-base offset (unlike 0-offset BED files)</li>
+<li><strong>end</strong>: Genomic end of the feature, in 1-base offset</li>
+<li><strong>score</strong>: Confidence in the annotated feature; a “.” (dot) indicates a null value.</li>
+<li><strong>strand</strong>: Single character strand of the feature; “+” (5’-&gt;3’), “-” (3’-&gt;5’), or “.” (undetermined). 8 <strong>phase</strong>: phase of CDS features; 0, 1, 2 or “.” (for everything else) 9 <strong>attributes</strong>: Other information pertaining to this feature</li>
+</ol>
+<h1 id="gff-clients">GFF Clients</h1>
+<ul>
+<li>GBrowse (GMOD): <a href="http://gmod.org/wiki/Gbrowse">open soruce</a></li>
+<li>IGB (Integrated Genome Browser): <a href="https://igv.org/">open source</a></li>
+<li>D3GB (Interactive Genome Browser for Python):</li>
+</ul>
+<h1 id="fa-fasta-file-format"><a href="https://en.wikipedia.org/wiki/FASTA_format">.FA</a> (FASTA) File Format</h1>
+<p>Human-readable <a href="https://en.wikipedia.org/wiki/FASTA_format">text format</a> Genomics data file format compatible with natural language processing tools.</p>
+<h1 id="fasta-amino-acid-sequence-example">FASTA Amino Acid Sequence Example</h1>
+<pre class="fasta"><code>&gt;MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken
+ADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTID
+FPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREA
+DIDGDGQVNYEEFVQMMTAK*</code></pre>
+<h1 id="fasta-nucleic-acid-sequence-example">FASTA Nucleic Acid Sequence Example</h1>
+<pre class="fasta"><code>&gt;I:0-62235 within
+ccacaccacacccacacacccacacaccacaccacacaccacaccacacc
+cacacacacacatcctaacactaccctaacacagccctaatctaaccctg
+gccaacctgtctctcaacttaccctccattaccctgcctccactcgttac
+cctgtcccattcaaccataccactccgaaccaccatccatccctctactt
+actaccactcacccaccgttaccctccaattacccatatccaacccactg
+ccacttaccctaccattaccctaccatccaccatgacctactcaccatac
+tgttcttctacccaccatattgaaacgctaacaaatgatcgtaaataaca
+cacacgtgcttaccctaccactttataccaccaccacatgccatactcac</code></pre>
+<h1 id="public-genomics-data">Public Genomics Data</h1>
+<ul>
+<li><a href="https://www.ebi.ac.uk/eva/?Variant-Browser&amp;species=hsapiens_grch37">European Variation Archive</a></li>
+<li><a href="https://www.internationalgenome.org/">International Genome Sample Resource</a></li>
+</ul>
+<h1 id="private-genomics-data">Private Genomics Data</h1>
+<ul>
+<li><a href="https://www.genomicsengland.co.uk/">Genomics England</a></li>
+<li><a href="https://commonfund.nih.gov/4Dnucleome">NIH Common Fund</a></li>
+</ul>

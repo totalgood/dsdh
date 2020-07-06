@@ -6,10 +6,10 @@ layout: slides
 # 1: Statistics
 
 <aside class="notes">
-    I'm Hobson Lane.
+    Hi I am Hobson Lane.
     Welcome lesson three of the Data science for digital Health course at UCSD Extension.
     Today you are going to learn about statistics and probability and how to apply these concepts to data science problems in healthcare.
-    </aside>
+</aside>
 
 # 3: Agenda
 
@@ -22,7 +22,6 @@ Accuracy
 Bayes Rule
 
 <aside class="notes">
-
     Today you are going to add to your statsitics and probability toolbox.
     Data science is mainly just applying statistics to historical data or natural experiments.
     You will use the principles of statistics and probability to answer questions about that data.
