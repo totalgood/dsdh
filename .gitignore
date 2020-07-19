@@ -62,6 +62,8 @@ MANIFEST
 bigdata
 *.zip
 *.gz
+*.csv
+*.db
 
 # secrets
 credential*
