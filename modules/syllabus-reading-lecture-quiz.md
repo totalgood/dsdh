@@ -34,7 +34,7 @@ Post to **Discussion Board**:
 
 ### Reading 3: Statistics & Privacy
 
-1. **Required**: _Healthcare Analytics Made Simple_, Chapter 3 "Machine Learning Foundations"
+1. **Required**: _Healthcare Analytics Made Simple_, Chapter 5 p. 127-131 "Introduction to scikit-learn"
 2. **Required**: Veritasium YouTube Explanation of Bayes Rule using Common Sense: [bit.ly/ucsd-bayes](https://bit.ly/ucsd-bayes)
 3. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action), Chapter 2 "Build Your Vocabulary (tokenization)"
 4. Suggested: _Statistical Thinking in Python_, DataCamp tutorial: [bit.ly/ucsd-eda](https://bit.ly/ucsd-eda)
@@ -75,20 +75,22 @@ Post to **ucsd.qary.me**: Ask TA Bot 5 questions about Data Science, Machine Lea
 ### Reading 6: Natural Language Processing
 
 1. **Required**: [NLP & Healthcare: Understanding the Language of Medicine](https://medium.com/curai-tech/nlp-healthcare-understanding-the-language-of-medicine-e9917bbf49e7)
-2. **Required**: ["SECNLP:A Survey of Embeddings in Clinical Natural Language Processing"](https://arxiv.org/ftp/arxiv/papers/1903/1903.01039.pdf) by Kalyan KS and S. Sangeetha
+2. **Required**: _Data Science Handbook_, by Jake VanderPlas, Section 5.5: ["Classifying Text with a Naive Bayes Classifier" ([https://bit.ly/ucsd-naive-bayes](https://bit.ly/ucsd-naive-bayes))
+3. Suggested: ["SECNLP:A Survey of Embeddings in Clinical Natural Language Processing" ([https://bit.ly/ucsd-med-embeddings](https://bit.ly/ucsd-med-embeddings)) by Kalyan KS and S. Sangeetha
 3. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 7 "Getting words in order with convolutional neural networks (CNNs)"
-4. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 8 "Loopy (recurrent) neural networks (RNNs)"
 
 # Lesson 7: Bioinformatics & Genomics
 
+1. **Required**: 
 View **Lecture 7**: Bioinformatics & Genomics
 
 Post to **Discussion Board**:
 
 ### Reading 7: Bioinformatics & Genomics
 
-1. **Required**: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 1: Introduction](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec2)
-2. **Required**: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) [Chapter 2: Quick Start](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec7)
+1. **Required**: _Healthcare Analytics Made Simple_, Chapter 8 p 215-220: "Cancer"
+1. **Required**: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) Chapter 1: Introduction ([http://bit.ly/ucsd-biopy](https://bit.ly/ucsd-bipython-1))
+2. **Required**: [_Biopython Tutorial and Cookbook_](http://biopython.org/DIST/docs/tutorial/Tutorial.html) Chapter 2: Quick Start ([http://bit.ly/ucsd-biopython-2](https://bit.ly/ucsd-bipython-2))
 3. Suggested: View ["Introduction to Genetics and Genomics"](https://youtu.be/NT9hBuBAexg) by Chris Keown
 4. _Intuition Pumps and Other Tools for Thinking_ by Daniel Dennet p. 185-217 (pumps 33-37 Tools about Evolution)
 5. [en.wikipedia.org/wiki/Darwin's Dangerous Idea](https://en.wikipedia.org/wiki/Darwin%27s_Dangerous_Idea) by Daniel Dennet, summarized on Wikipedia
@@ -101,7 +103,9 @@ Post to **Discussion Board**:
 
 ### Reading 8 (TBD): Assistive Technology, Ethics
 
-1. Suggested: _The Book of Why: The New Science of Cause and Effect_, Chapter 7: "Beyond Adjustment"
+1. **Required**: [Coded Bias](https://www.youtube.com/watch?v=gkbNH39QE0Q) by Joy Buolamwini
+2. **Required**: [Researchers say use of artificial intelligence in medicine raises ethical questions](https://med.stanford.edu/news/all-news/2018/03/researchers-say-use-of-ai-in-medicine-raises-ethical-questions.html) by Patricia HannonStanford Medicine Magazine
+3. Suggested: _The Book of Why: The New Science of Cause and Effect_, Chapter 7: "Beyond Adjustment"
 
 # Lesson 9 (TBD): Healthcare Systems Modeling
 
