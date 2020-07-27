@@ -74,10 +74,11 @@ Post to **ucsd.qary.me**: Ask TA Bot 5 questions about Data Science, Machine Lea
 
 ### Reading 6: Natural Language Processing
 
-1. **Required**: [NLP & Healthcare: Understanding the Language of Medicine](https://medium.com/curai-tech/nlp-healthcare-understanding-the-language-of-medicine-e9917bbf49e7)
-2. **Required**: _Data Science Handbook_, by Jake VanderPlas, Section 5.5: ["Classifying Text with a Naive Bayes Classifier" ([https://bit.ly/ucsd-naive-bayes](https://bit.ly/ucsd-naive-bayes))
-3. Suggested: ["SECNLP:A Survey of Embeddings in Clinical Natural Language Processing" ([https://bit.ly/ucsd-med-embeddings](https://bit.ly/ucsd-med-embeddings)) by Kalyan KS and S. Sangeetha
-3. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 7 "Getting words in order with convolutional neural networks (CNNs)"
+1. **Required**: _Data Science Handbook_, by Jake VanderPlas, Section 5.5: ["Classifying Text with a Naive Bayes Classifier" ([https://bit.ly/ucsd-naive-bayes](https://bit.ly/ucsd-naive-bayes))
+2. **Required**: https://towardsdatascience.com/natural-language-processing-nlp-for-electronic-health-record-ehr-part-ii-1b2a024ea03a
+3. Suggested: "SECNLP:A Survey of Embeddings in Clinical Natural Language Processing" ([https://bit.ly/ucsd-med-embeddings](https://bit.ly/ucsd-med-embeddings)) by Kalyan KS and S. Sangeetha
+4. Suggested: [Chatbots in Healthcare](https://topflightapps.com/ideas/ai-in-healthcare-how-chatbots-are-digitizing-patient-care/)
+5. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 7 "Getting words in order with convolutional neural networks (CNNs)"
 
 # Lesson 7: Bioinformatics & Genomics
 
