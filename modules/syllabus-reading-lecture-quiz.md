@@ -70,12 +70,15 @@ View **Lecture 6**: Natural Language Processing
 
 Post to **ucsd.qary.me**: Ask TA Bot 5 questions about Data Science, Machine Learning, Python, or Digital Health: [ucsd.qary.me](http://ucsd.qary.me). Try to think of questions that a healthcare practitioner would have and questions that cannot be answered using a search engine like Duck Duck Go.
 
-**Quiz**: Describe some unstructured datasets you've seen that Natural Language Processing could help with.
+### Assignments
+
+- **Exercise and Quiz**: https://colab.research.google.com/drive/1Qq8yVV4KFBxH5tORnrhvuSXuhud60ZLv?usp=sharing
+- **Discussion**: Describe some unstructured datasets you've seen that Natural Language Processing could help with.
 
 ### Reading 6: Natural Language Processing
 
 1. **Required**: _Data Science Handbook_, by Jake VanderPlas, Section 5.5: ["Classifying Text with a Naive Bayes Classifier" ([https://bit.ly/ucsd-naive-bayes](https://bit.ly/ucsd-naive-bayes))
-2. **Required**: https://towardsdatascience.com/natural-language-processing-nlp-for-electronic-health-record-ehr-part-ii-1b2a024ea03a
+2. **Required**: "NLP for Electronic Health Records" ([bit.ly/ucsd-nlp-ehr](https://bit.ly/ucsd-nlp-ehr))
 3. Suggested: "SECNLP:A Survey of Embeddings in Clinical Natural Language Processing" ([https://bit.ly/ucsd-med-embeddings](https://bit.ly/ucsd-med-embeddings)) by Kalyan KS and S. Sangeetha
 4. Suggested: [Chatbots in Healthcare](https://topflightapps.com/ideas/ai-in-healthcare-how-chatbots-are-digitizing-patient-care/)
 5. Suggested: [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) by Lane et al – Chapter 7 "Getting words in order with convolutional neural networks (CNNs)"

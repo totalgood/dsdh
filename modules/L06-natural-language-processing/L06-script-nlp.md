@@ -8,13 +8,50 @@ title: L06--DSDH--Natural-Language-Processing
 Hobson Lane, UC San Diego
 Instructor
 
-# 2: Two Questions
+<aside class="notes">
+    I'm Hobson Lane.
+    I am really excited about this week's lesson.
+    Natural language processing is my favorite part of Data Science. 
+    I love being able to put together machines that understand natural language and think for themselves.
+    I enjoy it so much that four years ago I recruited some of my students to help me write a book about it.
+    The publisher insisted we call it _Natural Language Processing in Action_.
+    If we'd had our way we would have called how to build a chatbot to save you from information overload and manipulation. 
+    Just as the flood of data has made machine learning possible, it is also overwhelming our brains.
+    It's hard to tell rumor from fact.
+    And everyone feels the need to be an expert at everything.
+    In the healthcare field, there is even more pressure to understand it all.
+    Natural Language Processing will help you in your healthcare work by relieving you of reading volumes of data on patients, drugs, and disease.
+    Machines can now sift through all that for you.
+    I truly believe that natural language processing could be the key to building prosocial machines that help us save us from ourselves.
+</aside>
+
+# 2: Logistics
+
+<aside class="notes">
+    Before we dive into natural language processing let's talk about logistics.
+    It took me a bit longer to prepare the lesson this week.
+    But I think you'll like it.
+    I've broken the lengthy lectures into bit sized chunks.
+    That way you can review the ones that are most useful or more difficult, without searching through a long video.
+    I'll provide the slides in a separate ODP (Open Office Presentation) file.
+    That way you can search the text and reuse any part of it in your office or at home.
+    I'm releasing it under the Hippocratic "Do No Harm" (MIT) open source license.
+    So feel free to reuse it however you like to help others get up to speed on Data Science for Healthcare.
+</aside>
+
+# 3: Two Questions
 
 What is Natural Language Processing?
 
 How can NLP be used in Healthcare?
 
-# 3: Agenda
+<aside class="notes">
+    So you're probably wondering, "What is Natural Language Processing anyway?" and, "How can I use it in the healthcare profession?"
+    That's what this lesson is all about. 
+    You'll have the answers to these and many more questions by the end of this lesson.
+</aside>
+
+# 4: Agenda
 
 "each word’s meaning" -> `{  'each': 1, 'word': 2, "'s": 3, 'meaning': 4 }`
 "What is Coronavirus?" -> `"COVID-19 is an infectious disease caused ..."`
@@ -29,26 +66,31 @@ Applications
     Summarization
 Conversational AI
     Therapy
-    First Aid
+    Triage
 
 <aside class="notes">
-    The goal of Natural Language Processing to compile natural langauge text into a numerical representation that captures its meaning.
-    To do this we need to break text into chunks that are meaningful so taht we can give them a numerical representation.
+    Here's your agenda for today.
+    The goal of Natural Language Processing to engineer some features from natural language text so that your normal Machine Learning Models can work with it.
+    This means you need to convert natural language text into a numerical representation that captures its meaning.
+    
+    To do this you first must break the text into chunks that are meaningful.
+    That way you can give each piece of text a numerical representation.
     So the first thing you'll learn is what those chunks of meaning are.
-    Then you'll learn some meaningful numerical representations of those chunks.
-    One of the most popular and useful representations is called a word vector.
-    You'll see some example uses for these word vectors and some of the challenges and the majic of these high dimensional word vectors.
+    Hint: these chunks of meaning are called *tokens*.
+    
+    After that you'll learn some meaningful numerical representations of those chunks as well as entire sentences, pages, or documents of text.
+    One of the most popular and meaningful representations of tokens is called a word vector.
+    You'll see some example uses for these word vectors and some of the challenges and the magic of these high dimensional word vectors.
 
-    Then you will see how to use vector representations of natural language text for machine leanring and semantic search.
-    You may have heard of IBM Watson being used for medical diagnosis support.
+    Then you will see how to use vector representations of natural language text for machine learning and semantic search.
+    You may have heard of IBM Watson being used for medical diagnosis support and cognitive search.
     You will learn about this cognitive search application of natural language processing.
 
     Finally you will learn about conversational AI or chatbots and how they are used in healthcare.
-    Conversational AI is particularly useful in underdeveloped healthcare systems such as in India, South America, and Africa.
+    Conversational AI is particularly useful in underdeveloped healthcare systems such as in rural India, South America, Oceania, and Africa.
+</aside>
 
-    </aside>
-
-# 4: What is NLP
+# 5: What is NLP
 
 1. Psychology: human (animal) language understanding
 2. Linguistics: natural language structure
@@ -58,22 +100,26 @@ Conversational AI
     - Generation (NLG)
 
 <aside class=notes>
+    If you study the psychological processes involved when you read or write or speak natural language, then your courses and graduate studies will likely be in the Psychology or Neuroscience department.
 
-If you study the psychological processes involved when you read or write or speak natural language, then your courses and graduate studies will likely be in the Psychology or Neuroscience department.
+    If you study linguistics, you may have your own linguistics department and you will take courses in the computer science, English, and even social sciences departments.
 
-If you study linguistics, most of your courses will be in the English department, or whatever your native language is.
+    If you study the engineering of NLP systems most of your classes will be in a computer science department.
+    As a computer scientist or software engineer you might think of your job as kind of like building compilers for natural language.
 
-If you study the engineering of NLP systems most of your classes will be in a computer science department and you will think of your job as kind of like building compilers for natural language.
+    If you study the grammars used for those compilers of natural language, your classes will be in the mathematics department.
+    You might think of your role as designing formal logic grammars and using those to generate formal logical proofs of theorems, all in natural language that humans can understand.
 
-If you study the grammars that are useful of NLP your classes will be in the mathematics department and you will think of your job as designing formal logic grammars and using those to generate formal logical proofs of theorems in natural language.
+    In this lecture you'll be shying away from the neuroscience behind natural language processing and focus more on the practicalities of it.
+    You will concentrate most of your effort on the engineering of NLP systems that can feed your Data Science pipeline with data.
 
-You will learn about all of these perspectives on NLP in this lecture.
-But you will concentrate most of your effort on the engineering of NLP systems.
-In my opinion, if you can build an NLP system, you will have a far deeper understanding of the psychology and
-This is the most practical and aproachable aspect of NLP. You will soon learn how to build a "recipe" of computer instructions (python code) to read, understand, and generate natural language text.
-Hopefully I will be able to infect you with my fascination for the magic of machines that can interact with us in our own language so well that we can hardly tell they are not human.
-It's scary and inspiring at the same time.
+    Many scientists believe, like I do, that if you can build an NLP system, you will have a far deeper understanding of what's going on in your brain when you read text.
+    This is the most practical and approachable aspect of NLP. 
+    You will soon learn how to build a "recipe" of computer instructions (python code) to read, understand, and even write sensible natural language text.
+    Hopefully I will be able to infect you with my fascination for the magic of machines that can interact with us in our own language.
 
+    It's scary and awe inspiring at the same time, to think that you are interacting with those machines daily.
+    And sometimes you may not even know that it's a machine and not a human on the other end of the conversation.
 </aside>
 
 [Foundational Issues in Natural Language Processing: Introduction](https://dash.harvard.edu/bitstream/handle/1/17017334/finlp.pdf), Sells, Peter, Stuart M. Shieber, and Thomas Wasow. 1991. (c) MIT Press.

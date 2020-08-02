@@ -58,6 +58,40 @@ Phylogenic tree of life based on RNA sequence similarity.
 
 :::
 
+# Self-perpetuating Machinery of Life
+
+DNA -> RNA -> Amino Acids -> Proteins -> Cells -> DNA ->RNC
+
+# Domain Knowledge
+
+- TerraHawk
+- Point Cloud
+
+<aside>
+    This is the point in microbiology where my expertise begins to peter our.
+    I'm not a doctor, and I don't even play one on television.
+    Fortunately, even for genomics and bioinformatics, domain knowledge, like understanding microbiology, is not required.
+    You just need to understand the inputs and outputs of the model you're trying to build.
+    You start with the data.
+    You chose a target variable in that data that you'd like to predict.
+    And one by one you 
+    In fact, sometimes I find that my domain knowledge can prevent me from seeing the most fruitful path forward.
+    My background is in physics and robotics.
+    So when I first started working on the self-driving car problem in 2004, I focused on giving the machine a 3D picture of the world.
+    This is what I knew how to do. 
+    I'd hand-craft the kinematics and dynamics models and then see if the machine could fit the real world data into that model.
+    That meant we needed 3D data from radar and lidar and stereo scopic cameras to make the system work.
+    And we lost the DARPA grand Challenge race across the Mohave desert to the Stanford and Canegie Mellon teams.
+    They focused on the Data.
+    They knew that humans could recognize objects and estimate their distance using a single image.
+    So they knew it would be possible to use conventional machine learning models like logistic regression and linear regression if they could just extract the right features from those images.
+    So they tried all the computer vision feature extractors they could think of and fed them into the model.
+    And they hit on a combination that worked.
+    They used lidar and radar too, to help calibrate the computer vision.
+    But their system helped them stumble onto a new computer vision approach that is dominant today.
+    It doesn't work at all like the physics models that I used.
+    It works like all the other machine learning models.
+</aside>
 # Genomics
 
 ## What is Genomics?
